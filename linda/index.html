@@ -1,0 +1,260 @@
+<!-- Thanks for learning about sustainability at Pitt. , where you'll use code to process and share your experiences with others. While you are exploring sustainable design, gather pictures and data you'll use in this document.
+
+To get started making this document, you'll need to download the zip file from GitHub. Go ahead and put these files in a secure folder where you can find them and organize assets like files and images. You'll also need a text editor like "brackets.io" or "CodePad" on Chromebooks. Open the index.html document in the text editor and we can get started building our own webpage.-->
+
+<!--BTW. You can leave these hidden HTML code comments be, or delete them.-->
+
+<!--First, we'll need to do some work in the head of the document. The head organizes important information needed to explain to browsers how the website works. You can keep the title of this HTML document, "My Nature Outing," or change it to whatever you want to call it. Your new text will appear in your browser tab-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <!--this next section of code is the <head>. The <head> tells browsers what your page should look like on the different kinds of screens and links stylesheets that control the appearance of your content. Whenever see a "class" called, you can see that element styled on the style.css page.-->
+
+<head>
+  <title>Sustainable Design</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald|Noto+Sans">
+    <link rel="shortcut icon" href="favicon.ico" />
+    </head>
+
+<!--The body of the document houses the content users see on their browser. We'll spend most of our time in this section.-->
+
+<body>
+
+<!--First up is our navigation. It links menu items to #anchors in the webpage. Javascript <script> at the bottom of the page auto scrolls the page to the selected #anchor point.-->
+
+  <div class="navbar" id="myNavbar">
+    <a href="#about">About</a>
+    <a href="#projects">Sustainable Design at Pitt</a>
+    <a href="#favorite">Favorite Project</a>
+    <a href="#interview">Interview</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <!-- Developers refer to this division as a "Hero Block" It's the first thing users will see. Think carefully about the image you select and how it might serve a symbolic function for your site Place a .jpg image in the same file folder as this project (hint: name it hero.jpg).
+
+  If needed, you can control the <div class="hero-block" on the style.css page to match your image asset. Next, change the other relevant information in this section."-->
+
+<div class="hero-block" id="hero-block">
+  <div class="hero-block-text">
+    <h1>Exploring Sustainable Design</h1>
+     <h2>Linda</h2>
+</div>
+</div>
+
+
+<div id="about" class="bg-b">
+  <div class="header"><h1>About</h1>
+  <div class="flex-container">
+  <div class="flex-2item-left">
+    <p>This My Nature Outing project inquires into questions surrounding sustainable design and examines local efforts at the University of Pittburgh. My Nature Outing is sponsored by the University of Pittsburgh's John C. Mascaro Center for Sustainable Engineering and the Office of the Provost's Year of Data and Society.</p>
+  </div>
+
+  <div class="flex-2item-right">
+    <img src="img1.jpg" style="width:100%">
+  </div>
+</div>
+</div>
+</div>
+
+
+<!--We'll begin by thinking about the mode of seeing and the medium of photography. Seeing is just one way we come to understand our world. And when we use tools for seeing, like telescopes and microscopes, we can sometimes see an object differently from how we might otherwise. Sometimes we can bring the object closer, sometimes we can better frame the object, and sometimes we can bring different elements into focus. In this exercise we are going to think about how we can frame not the whole of the tree, but the branch, not the boulder, but the moss on its northern-most side. We might be in a big place, but we can use the lens to direct our attention to something smaller. So what are the parts that make up the whole of this system?-->
+
+<!--In this exercise we'll need to place our image assets in the project folder making sure each image is a .jpg or .png. Link the img src=to your image in your project folder. Then you'll need to scroll down to the corresponding modals at the bottom of this document to add the image there as well. The modal will pop-up when the audience activates the link. Finally, be sure to add an alt= description for visually impaired audiences-->
+
+
+
+<div id="projects" class="bg-w">
+  <div class="header"><h1>Sustainable Design</h1>
+
+<p>Sustainable design are designs that are efficient and has a important purpose.  We should share sustainable designs all over the world to help and improve places.</p>
+
+  </div>
+  <div class="flex-container">
+    <div class="flex-3item-left">
+        <img src="img2.jpg" style="width:98%" alt="describe image here">
+      <h3>Rain Gardens</h3>
+      <p>What is it it?</p>
+          <button class="modal-button" href="#myModal1">Learn More</button>
+    </div>
+
+    <div class="flex-3item-center">
+        <img src="img3.jpg" style="width:98%" alt="describe image here">
+      <h3>Recycling Bikes</h3>
+      <p>What is it?</p>
+          <button class="modal-button" href="#myModal2">Learn More</button>
+    </div>
+
+    <div class="flex-3item-right">
+        <img src="img4.jpg" style="width:98%" alt="describe image here">
+      <h3>Natural Rain Drains</h3>
+      <p>What is it?</p>
+          <button class="modal-button" href="#myModal3">Learn More</button>
+    </div>
+  </div>
+  </div>
+
+
+
+  <div id="favorite" class="bg-b">
+  <div class="flex-container">
+  <div class="flex-2item-left">
+    <img src="img5.jpg" style="width:100%" alt="describe image here">
+  </div>
+  <div class="flex-2item-right">
+    <h2>Thriftsburgh</h2>
+    <p>Thriftsburgh is a clothing thriftstore donated by students to then be sold inexpensively to other students who may not have the funds to buy more expensive clothing.  This idea for a campus thriftstore is genius; its giving students a way to donate clothing they dont want while also conveniently allowing students to buy new clothing on campus.  </p>
+  </div>
+  </div>
+  <div class="flex-container">
+    <div class="flex-3item-left">
+      <img src="img6.jpg" style="width:98%" alt="describe image here">
+        <p class="caption">Gardens</p>
+    </div>
+
+    <div class="flex-3item-center">
+      <img src="img7.jpg" style="width:98%" alt="describe image here">
+      <p class="caption">Donated Bikes</p>
+    </div>
+
+    <div class="flex-3item-right">
+      <img src="img8.jpg" style="width:98%" alt="describe image here">
+      <p class="caption">Thrift store</p>
+    </div>
+  </div>
+  </div>
+
+
+<!--Audio interview another person - this activity is a great way for you to connect with others. Prepare a list of questions to ask your interviewee, but feel free to go off script. Why is this space important to this individual? What did they learn during their visit? Do they want to spend more time in the woods? Etc.-->
+
+  <div id="interview" class="bg-b">
+    <div class="header"><h1>Interview</h1>
+    <div class="flex-container">
+      <div class="flex-2item-left">
+        <img src="img9.jpg" style="width:100%">
+      </div>
+      <div class="flex-2item-right">
+      <p>I interviewed Dawn. I asked Dawn's thoughts on these different sustainable designs.</p>
+
+      <audio controls>
+<source src="aud1.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+    </div>
+
+  </div>
+  </div>
+  </div>
+
+<br>
+<br>
+
+<div style="text-align:center">
+  <img src="img1.jpg" style="width:30%" alt="describe image here">
+  <p>generated by <a href="https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/">Pitt Fuego</a></p>
+    <p><em>Peace, Love, Sustain</em></p>
+  </div>
+
+
+
+</body>
+
+
+    <!--Down here is where we keep all over our modal links. You will need to replace these placeholders with relevant content.-->
+
+<!-- Modal 1-->
+<div id="myModal1" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <img src="img2.jpg" style="width:50%">
+      <p style="color:black"><p>These gardens are gardens full of native plants and trees that attract pollinating insects, as well as give shade and a place for students to study in nature.  Not only is it a habitable place for both animals and students, the gardens also consumes rain.  We should expand this design to help the environment and so people can enjoy nature.</p></p>
+      </div>
+  </div>
+
+
+<!-- Modal 2-->
+<div id="myModal2" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+        <img src="img3.jpg" style="width:50%">
+    <p style="color:black"><p>The Bike Cave is a workshop to repair and restore old and broken bikes that were donated.  They then sell the improved bikes, mostly aimed to college students to get around on campus.  These bikes are very inexpensive, ranging from 20$-120$.  Anywhere could have Bike Caves; anyone can donate and any bike can be repaired to sell to people.  In addition to being inexpensive and helpful to students, riding bikes also improves the environment.</p></p>
+  </div>
+</div>
+
+<!-- Modal 3-->
+<div id="myModal3" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+       <img src="img4.jpg" style="width:50%">
+    <p style="color:black"><p>Natural rain drains are strategically placed plants to use rainwater and to help flooding.  This is important to use excess rainwater but to also provide pollinating insects more plants.  These Natural Rain Drains are convenient and can be easily placed on sidewalks.</p></p>
+  </div>
+
+</div>
+
+
+
+</body>
+
+    <!--Looking to publish this in GitHub? Here is what you need to do. Go back to GitHub, sign in and create a new repository. Click upload, and select/drag and drop all of you files... all of them, index.html. style.html, readme, and your image assets. Click commit. This will replace/add all essential files to make your Nature Outing. Great, now your files are where it needs to be. Now go to your repository "settings." Scroll down to "GitHub Pages." Here you will change "source" from "none" to "master branch." This will publish your Nature Study online. Refresh and scroll down to find your URL. Copy and Paste. It's time to spread your love of nature!-->
+
+
+
+    <!--Finally, this javascript scrolls the pages and opens modal windows.-->
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myNavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+
+// Get the button that opens the modal
+var btn = document.querySelectorAll("button.modal-button");
+
+// All page modals
+var modals = document.querySelectorAll('.modal');
+
+// Get the <span> element that closes the modal
+var spans = document.getElementsByClassName("close");
+
+
+
+// When the user clicks the button, open the modal
+for (var i = 0; i < btn.length; i++) {
+ btn[i].onclick = function(e) {
+    e.preventDefault();
+    modal = document.querySelector(e.target.getAttribute("href"));
+    modal.style.display = "block";
+ }
+}
+
+// When the user clicks on <span> (x), close the modal
+for (var i = 0; i < spans.length; i++) {
+ spans[i].onclick = function() {
+    for (var index in modals) {
+      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";
+    }
+ }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target.classList.contains('modal')) {
+     for (var index in modals) {
+      if (typeof modals[index].style !== 'undefined') modals[index].style.display = "none";
+     }
+    }
+}
+
+
+</script>
