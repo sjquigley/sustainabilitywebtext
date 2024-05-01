@@ -1,0 +1,309 @@
+/* Bee that follows cursor */
+#followingBee {
+  position: fixed;
+  pointer-events: none;
+  transform: translate(20px, 20px);
+  transition: transform 0.5s ease-out;
+  z-index: 9999;
+  width: 5.5vh;
+  height: 5.5vh;
+}
+/* Bees */
+.bee1 {
+  width: 5.5vh;
+  height: 5.5vh;
+  animation: buzzing forwards 0.08s infinite;
+}
+.bee2 {
+  width: 5.5vh;
+  height: 5.5vh;
+  margin-left: 100vh;
+  animation: buzzing forwards 0.08s infinite;
+}
+.bee3 {
+  width: 5.5vh;
+  height: 5.5vh;
+  animation: buzzing forwards 0.08s infinite;
+}
+
+.bee4 {
+  width: 7vh;
+  height: 7vh;
+  animation: buzzing forwards 0.08s infinite;
+}
+.bee5 {
+  width: 10vh;
+  height: auto;
+  margin-left: 10vh;
+  animation: buzzing forwards 0.08s infinite;
+}
+.bee6 {
+  width:6vw;height:auto;
+  margin-left: 100vh;
+  animation: buzzing forwards 0.08s infinite;
+}
+.bee7 {
+  width: 200vh;
+  height: 200vh;
+  float: left;
+  margin-right: 100vh;
+  margin-top: -200vh;
+  animation: buzzing forwards 0.08s infinite;
+}
+
+/* Buzzing Animation */
+@keyframes buzzing {
+  0% {
+    transform: rotateZ(2deg);
+  }
+}
+
+/* Animated Bees on Flower Image */
+.flowersBee1{
+  display:block;
+  margin-top: -5vw;
+  margin-bottom: -5vw;
+  margin-left: 160vh;
+  animation: flowersBee1 forwards 35s infinite;
+}
+@keyframes flowersBee1 {
+  0% {
+      transform: translateX(0vw);
+  }
+  50% {
+    transform: translateY(40vw);
+}
+  100% {
+      transform: translateX(-200vw);
+  }
+
+}
+.flowersBee2{
+  display:flex;
+  animation: flowersBee2 alternate-reverse 20s infinite;
+}
+@keyframes flowersBee2 {
+  0% {
+      transform: translateX(0vw);
+  }
+  25% {
+    transform: translateY(-5vw);
+  }
+  50% {
+    transform: translateY(-10vw);
+  }
+  70% {
+  transform: translateY(-12vw);
+  }
+  100% {
+      transform: translateX(50vw);
+  }
+}
+.flowersBee3{
+  display:flex;
+  animation: flowersBee3 alternate-reverse 5s infinite;
+}
+@keyframes flowersBee3 {
+  0% {
+      transform: translateX(0vw);
+  }
+  25% {
+    transform: translateY(-1.5vw);
+  }
+  50% {
+    transform: translateY(-1.5vw);
+  }
+}
+
+.flowersBee4{
+  display:flex;
+  animation: flowersBee4 alternate-reverse 8s infinite;
+}
+
+@keyframes flowersBee4 {
+  0% {
+      transform: translateX(0vw);
+  }
+  10% {
+    transform: translateY(1.5vw);
+  }
+  50% {
+    transform: translateX(1.5vw);
+  }
+  60% {
+  transform: translateY(1vw);
+  }
+}
+.flowersBee5{
+  display:flex;
+  animation: flowersBee5 alternate-reverse 5s infinite;
+}
+@keyframes flowersBee5 {
+  0% {
+      transform: translateX(0vw);
+  }
+  25% {
+    transform: translateY(1.5vw);
+  }
+  50% {
+    transform: translateY(1.5vw);
+  }
+}
+.flowersBee6{
+  display:flex;
+  animation: flowersBee6 alternate-reverse 8s infinite;
+}
+@keyframes flowersBee6 {
+  0% {
+      transform: translateX(0vw);
+  }
+  10% {
+    transform: translateY(0.5vw);
+  }
+  80% {
+  transform: translateX(1vw);
+  }
+}
+.page_break_bike {
+  display:block;
+  margin-top: -5vw;
+  margin-bottom: -5vw;
+  margin-left: 160vh;
+  animation: page_break_bike forwards 8.5s infinite;
+}
+@keyframes page_break_bike {
+  0% {
+      transform: translateX(0vh);
+  }
+
+  100% {
+      transform: translateX(-200vh);
+  }
+
+}
+
+/* Title Bees */
+.title-bee-1 {
+  width: 10vh;
+  display: flex;
+  height: auto;
+  float: left;
+  animation: title-bee-1 forwards 15s infinite;
+}
+@keyframes title-bee-1 {
+  0% {
+    transform: translateX(5vh);
+  }
+
+  10% {
+    transform: translateY(5vh);
+  }
+  50% {
+    transform: translateX(-5vh);
+  }
+
+  60% {
+    transform: translateY(1vh);
+  }
+
+  70% {
+    transform: translateY(1vh);
+  }
+
+  80% {
+    transform: translateY(5vh);
+  }
+
+  100% {
+    transform: translateX(10vh);
+  }
+}
+.title-bee-2 {
+  width: 10vh;
+  height: 10vh;
+  margin-top: 50vh;
+  display: flex;
+  animation: left_bottom_bee_animation alternate 40s infinite;
+}
+@keyframes left_bottom_bee_animation {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(250px, -700px);
+  }
+  100% {
+    transform: translate(100px, -200px);
+  }
+}
+.title-bee-3 {
+  animation: left_bottom3_bee_animation alternate 50s infinite;
+  display: flex;
+}
+@keyframes left_bottom3_bee_animation {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(250px, -700px);
+  }
+  100% {
+    transform: translate(-100px, 200px);
+  }
+}
+.title-bee-4 {
+  animation: title-bee-4 alternate 5s infinite;
+  display: flex;
+  width: 10vw;
+  height:auto;
+}
+@keyframes title-bee-4 {
+  0% {
+    transform: translate(0, 0);
+  }
+  40% {
+    transform: translate(50px, 50px);
+  }
+  100% {
+    transform: translate(-100px, 100px);
+  }
+}
+.title-bee-5 {
+  animation: title-bee-5 alternate 10s infinite;
+  display: flex;
+}
+
+@keyframes title-bee-5 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(-100px, -100px);
+  }
+  100% {
+    transform: translate(100px, -200px);
+  }
+}
+.title-bee-6 {
+  width: 10vh;
+  height: 10vh;
+  margin-top: 50vh;
+  animation: title-bee-6 alternate 15s infinite;
+}
+@keyframes title-bee-6 {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(250px, -700px);
+  }
+  100% {
+    transform: translate(100px, -200px);
+  }
+}
+
+/* Sources */
+/* https://stackoverflow.com/questions/23458640/how-to-have-css3-animation-to-loop-forever */
+/* https://codepen.io/yochans/pen/MWEOwNJ */
+/* https://www.w3schools.com/cssref/css_pr_translate.php */ 
+/* https://codepen.io/yochans/pen/MWEOwNJ */
