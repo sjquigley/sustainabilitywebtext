@@ -40,3 +40,10 @@ observeElements(fadeIn);
 
 const up = document.querySelectorAll(".up");
 observeElements(up);
+
+const hamburgerMenu = document.querySelector(".hamburger-menu");
+const sidebar = document.querySelector(".sidebar");
+
+hamburgerMenu.addEventListener("click", function () {
+  sidebar.classList.toggle("active");
+});

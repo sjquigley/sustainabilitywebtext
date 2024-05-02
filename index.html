@@ -1,771 +1,919 @@
-<!--Looks like you're ready to get making with Open Fuego Webtext Generator. Good luck. Let's remember a few basic things:
-
-1. If you haven't worked through an introductory project like "I Am...A Project in Becoming," please do so. It will give you the basic skills to use this webtext generator.
-2. Use HTML compatible file formats.
-3. Reduce image size when possible. 
-4. Keep asset names simple and machine readable. We recommend camelCase. 
-5. Match asset name and file type in your code. Be case sensitive. 
-6. Consider accessibility: Use alt-text to describe images for the visually impaired, be descriptive when labeling links, and use clear button language. 
-7. Be respectful of your own and others' privacy. 
-8. Consult W3 or Stack Overflow when our code is not working or you need it to do something more than it's doing.
-9. When you make a mistake, Control Z, Control Z, Control Z...
-10. Publish, share, spread the love!-->
-
-<!--BTW. You can leave these hidden HTML text fields be, or delete them. They are but road signs, absent from the larger design-->
-
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <title>Exploring Sustainable Design</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="sidebar.css">
+        <!-- New stylesheets -->
+        <link rel="stylesheet" type="text/css" href="scrollanimations.css">
+        <link rel="stylesheet" href="bees/bee.css">
+        <!-- Added javascript  -->
+        <script src="script.js" defer></script>
+        <!--We've added Google Fonts to The Webtext Generator. Go to https://www.w3schools.com/howto/howto_google_fonts.asp to find fonts and add them to this stylesheet link and to the html selector on style.css-->
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <img src="bee1.png" id="followingBee"> 
+        <!--To adjust hero image and text, find hero-image class on style.css-->
+        <div class="hero-image">
+            <!-- Bee Animations -->
+            <div class="title-bee-1">
+                <img src="bees/bee4.png" class="bee6">
+            </div>
+            <div class="title-bee-2">
+                <img src="bee1.png" class="bee2">
+            </div>
+            <div class="title-bee-3">
+                <img src="bees/bee5.png" class="bee5">
+            </div>
+            <div class="title-bee-4" style="margin-top:10vh;margin-left:140vh">
+                <img src="bees/bee5.png" class="bee5">
+            </div>
+            <div class="title-bee-5">
+                <img src="bee2.png" class="bee2">
+            </div>
+            <div class="title-bee-6">
+                <img src="bees/bee2.png" class="bee3">
+            </div>
+            <div class="title-bee-1">
+                <img src="bee2.png" class="bee2">
+            </div>
+            <div class="title-bee-1">
+                <img src="bee2.png" class="bee1">
+            </div>
+            <div class="title-bee-2">
+                <img src="bee1.png" class="bee2">
+            </div>
+            <div class="title-bee-1">
+                <img src="bee2.png" class="bee2">
+            </div>
+            <div class="title-bee-2">
+                <img src="bee1.png" class="bee2">
+            </div>
+            <div class="title-bee-1">
+                <img src="bee2.png" class="bee2">
+            </div>
+            <img src="bee1.png" style="float:right;margin-top:-40vh">
+            <div class="title-bee-1">
+                <img src="bee2.png" class="bee2">
+            </div>
+            <div class="right_bottom_bee">
+                <img src="bee2.png" style="margin-right:200vh" class="bee2">
+            </div>
+            <div class="title-bee-2">
+                <img src="bee1.png" class="bee2">
+            </div>
+            <div class="title-bee-2">
+                <img src="bee1.png" class="bee4">
+            </div>
+            <img src="bee1.png" class="bee1">
+            <!-- Hero text -->
+            <div class="hero-text">
+                <h1 class="title">Exploring Sustainable Design</h1>
+                <h2>by_</h2>
+            </div>
+        </div>
+        <!-- sidebar -->
+        <div class="sidebar">
+          <a href="#introduction">Introduction</a>
+          <a href="#youth">Youth</a>
+          <a href="#dialogic">Dialogic Communication</a>
+          <a href="#methods">Methods</a>
+          <a href="#data-collection">Data Collection</a>
+          <a href="#html-science-communcation">HTML Science Communication</a>
+          <a href="#tech-considerations">Tech Considerations</a>
+          <a href="#research-goals">Research Goals</a>
+          <a href="#results">Results</a>
+          <a href="#assessment-data-collection">Assessment Data Collection</a>
+          <a href="#assessment-science-communication">Assessment Science Communication</a>
+          <a href="#parent-feedback">Parent Feedback</a>
+          <a href="#discussion">Discussion</a>
+          <a href="#references">References</a>
+        </div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon"></div>
+          <div class="hamburger-icon"></div>
+          <div class="hamburger-icon"></div>
+        </div>
+        <!--To build your webtext, copy the code snippet (provided below) and paste into the <body> section below this line.-->
+        <div class="text-block fade-in">
+            <h2>ABSTRACT</h2>
 
-<head>
-  <title>Exploring Sustainable Design</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <!-- New stylesheets -->
-  <link rel="stylesheet" type="text/css" href="scrollanimations.css">
-  <link rel="stylesheet" href="bees/bee.css">
-
-  <!-- Added javascript  -->
-  <script src="script.js" defer></script>
-
-  <!--We've added Google Fonts to The Webtext Generator. Go to https://www.w3schools.com/howto/howto_google_fonts.asp to find fonts and add them to this stylesheet link and to the html selector on style.css-->
-  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-
-
-<body>
-  <img src="bee1.png" id="followingBee">
-  <!--To adjust hero image and text, find hero-image class on style.css-->
-  <div class="hero-image">
-    <!-- Bee Animations -->
-    <div class="title-bee-1">
-      <img src="bees/bee4.png" class="bee6">
-    </div>
-    <div class="title-bee-2">
-      <img src="bee1.png" class="bee2">
-    </div>
-    <div class="title-bee-3">
-      <img src="bees/bee5.png" class="bee5">
-    </div>
-    <div class="title-bee-4" style="margin-top:10vh;margin-left:140vh">
-      <img src="bees/bee5.png" class="bee5">
-    </div>
-    <div class="title-bee-5">
-      <img src="bee2.png" class="bee2">
-    </div>
-    <div class="title-bee-6">
-      <img src="bees/bee2.png" class="bee3">
-    </div>
-    <div class="title-bee-1">
-      <img src="bee2.png" class="bee2">
-    </div>
-    <div class="title-bee-1">
-      <img src="bee2.png" class="bee1">
-    </div>
-    <div class="title-bee-2">
-      <img src="bee1.png" class="bee2">
-    </div>
-    <div class="title-bee-1">
-      <img src="bee2.png" class="bee2">
-    </div>
-    <div class="title-bee-2">
-      <img src="bee1.png" class="bee2">
-    </div>
-    <div class="title-bee-1">
-      <img src="bee2.png" class="bee2">
-    </div>
-    <img src="bee1.png" style="float:right;margin-top:-40vh">
-    <div class="title-bee-1">
-      <img src="bee2.png" class="bee2">
-    </div>
-    <div class="right_bottom_bee">
-      <img src="bee2.png" style="margin-right:200vh" class="bee2">
-    </div>
-    <div class="title-bee-2">
-      <img src="bee1.png" class="bee2">
-    </div>
-    <div class="title-bee-2">
-      <img src="bee1.png" class="bee4">
-    </div>
-    <img src="bee1.png" class="bee1">
-    <!-- Hero text -->
-    <div class="hero-text">
-      <h1 class="title">Exploring Sustainable Design</h1>
-      <h2>by_</h2>
-    </div>
-  </div>
-
-  <!--To build your webtext, copy the code snippet (provided below) and paste into the <body> section below this line.-->
-  <div class="text-block fade-in" style="text-align: left">
-    <h2>ABSTRACT</h2>
-    <p>This case study examines how we might advance inclusive models of science communication working with youth at an
-      environmental science and code education day camp focused on exploring sustainable design. Over the course of a
-      single day, our middle school participants explore and inquire into sustainable design sites, gather data, and
-      work with HTML code templates to communicate their findings to others. This case study examines how and why we
-      might leverage inclusive communication models, digital tools, and the available means of persuasion to center
-      youth in the communication of sustainable design. Our case study introduces participants to a sustainable design
-      dialogic communication framework we use to promote inquiry and dialogue. We similarly use this framework to help
-      students extends these conversations through code-based multimodal making methods.</p>
-  </div>
-
-  <!-- Bicycle that crosses through paragraphs -->
-  <div class="page_break_bike">
-    <img src="bike.png" style="width:10vw">
-  </div>
-
-  <!-- INTRODUCTION TEXT -->
-  <div class="text-block fade-in" style="text-align: left">
-    <h2>INTRODUCTION</h2>
-    <p>This case study examines how we might advance inclusive models of science communication working with youth at an
-      environmental science and code education day camp focused on exploring sustainable design. Over the course of a
-      single day, our middle school participants explore and inquire into sustainable design sites, gather data, and
-      work with HTML code templates to communicate their findings to others. This case study examines how and why we
-      might leverage inclusive communication models, digital tools, and the available means of persuasion to center
-      youth in the communication of sustainable design.</p>
-
-
-    <p><i>What is sustainable design?</i> That’s the question we want our youth participants to spend day working
-      through. The architect Jason McLennan (2004) defines sustainable design as “a design philosophy that seeks to
-      maximize the quality of the built environment, while minimizing or eliminating negative impact to the natural
-      environment” (p 4). But even McLennan is quick to point out the problem of defining as well of the misuse of
-      sustainability related terms. We want our participants to understand sustainable design as a practice, one that
-      requires another set of questions and sub-questions to language, enact, interpret, and maintain. These questions,
-      what we refer to as the Sustainable Design Dialogic Communication Framework, are geared towards unconcealing the
-      context of a specific sustainable design act. These questions include but are not limited to: <i>What is it and
-        what does it do? How does it work? What is the impact? </i> and <i> What should we do next?</i> or <i> How can
-        we do it better?)</i>
-  </div>
-
-  <!-- Image -->
-  <div style="position:relative; overflow:hidden">
-    <img class="text-block up" src="dawn\img7.jpg" style=" border-radius:25px ">
-    <!-- Animated Bees on the image/side -->
-    <div class="flowersBee2">
-      <img src="bees/bee5.png" style="width:6vw;height:auto;top:-20vw;left:-20vw;position:absolute" class="bee6">
-    </div>
-    <div class="flowersBee1">
-      <img src="bees/bee4.png" style="top:-60vw;left:10vw;position:absolute" class="bee6">
-    </div>
-  </div>
-  <div class="flowersBee3">
-    <img src="bees/bee1.png" style="width:3vw;height:auto;top:-37.5vw;left:-6vw;position:absolute" class="bee6">
-  </div>
-  <div class="flowersBee6">
-    <img src="bees/bee2.png" style="width:3.3vw;height:auto;top:-13vw;left:10vw;position:absolute" class="bee6">
-  </div>
-
-  <div class="text-block fade-in" style="text-align:left">
-    <p>The practice of sustainable design requires a synthesis of multiple knowledges and methods best interpreted
-      through the study of sustainability science, an area of research that examines the relationship between humans and
-      nature and develops sustainable solutions to address imbalance (Robert Kates et al., 2001). Because the field
-      emerged from conversations around sustainable development, it seeks to operationalize knowledge, however, early
-      contributors to the field disagreed on strategy. Some, David Cash et al. (2003) for example, imagined science and
-      technology experts as thought leaders: facilitating relationships with decision makers, translating scientific
-      knowledge, and mediating disputes with those who might interfere with policy action. Others like William Clark
-      &amp; Nancy Dickinson. (2003), advocated for a bottom-up approach, using place-based methods informed by local
-      perspectives and knowledges. Still others, including Anthony McMichael et al. (2003), understood environmental
-      problems as largely caused by human factors stemming from resource imbalances, poor market choices, and ignorance,
-      and thus called on a fields outside of the environmental sciences, including geography, economics, and
-      epidemiology, to prioritize environmental issues in their discourse and collaborate across disciplines to work
-      towards sustainable solutions.</p>
-
-    <p>Today, the field of sustainability science requires a wide range of natural scientists, social scientists, and
-      even humanities scholars, working collaboratively to solve problems related to environmental sustainability (Anne
-      Jerneck et al., 2011). Sustainability science adopts a social-ecological systems approach to understanding human
-      and nature interaction as networked and occurring within and across local, regional, and global scales (Joern
-      Fischer et al., 2015). A social-ecological systems approach also interprets environmental sustainability solutions
-      as inextricably linked to issues of equity and social justice (Melissa Leach et al., 2010). Similarly, in
-      <i>Braiding Sweet Grass</i> (2013), Robin Kimmerer shares the indigenous concept of reciprocity, the equitable and
-      just giving and taking of only what one needs and shares how this concept is enacted both in nature and in
-      indigenous cultures. And while she provides a surplus of science evidence explaining the benefits of reciprocity,
-      she cautions us that at this moment in time, “it is not more data that we need […] but more wisdom” (p. 415). It
-      is the task of sustainability science to recognize such wisdom, and to synthesize different knowledge systems,
-      especially indigenous knowledge, and translate this knowledge into mutually agreed upon sustainability best
-      practices and policy (Maria Tengö et al., 2017). In addition to aligning research and knowledge with policy an
-      practice, institutions of higher education can advance sustainability goals grant funding, training for the
-      industries and communities they serve, and other modes of outreach (Issa Berchin et al. 2021).
-    <p>
+            <p>This case study examines how we might advance inclusive models of science communication working with youth at an
+            environmental science and code education day camp focused on exploring sustainable design. Over the course of a
+            single day, our middle school participants explore and inquire into sustainable design sites, gather data, and
+            work with HTML code templates to communicate their findings to others. This case study examines how and why we
+            might leverage inclusive communication models, digital tools, and the available means of persuasion to center
+            youth in the communication of sustainable design. Our case study introduces participants to a sustainable design
+            dialogic communication framework we use to promote inquiry and dialogue. We similarly use this framework to help
+            students extends these conversations through code-based multimodal making methods.</p>
+        </div>
+        <!-- Bicycle that crosses through paragraphs -->
+        <div class="page_break_bike">
+            <img src="bike.png" style="width:10vw">
+        </div>
 
 
+        <!-- INTRODUCTION TEXT -->
+        <div class="text-block fade-in" id="introduction">
+            <h2>INTRODUCTION</h2>
 
-      Carpenter, Serena et al. (2016).
+            <p>This case study examines how we might advance inclusive models of science communication working with youth at an
+            environmental science and code education day camp focused on exploring sustainable design. Over the course of a
+            single day, our middle school participants explore and inquire into sustainable design sites, gather data, and
+            work with HTML code templates to communicate their findings to others. This case study examines how and why we
+            might leverage inclusive communication models, digital tools, and the available means of persuasion to center
+            youth in the communication of sustainable design.</p>
 
+            <p><i>What is sustainable design?</i> That's the question we want our youth participants to spend day working
+            through. The architect Jason McLennan (2004) defines sustainable design as "a design philosophy that seeks to
+            maximize the quality of the built environment, while minimizing or eliminating negative impact to the natural
+            environment" (p 4). But even McLennan is quick to point out the problem of defining as well of the misuse of
+            sustainability related terms. We want our participants to understand sustainable design as a practice, one that
+            requires another set of questions and sub-questions to language, enact, interpret, and maintain. These questions,
+            what we refer to as the Sustainable Design Dialogic Communication Framework, are geared towards unconcealing the
+            context of a specific sustainable design act. These questions include but are not limited to: <i>What is it and
+            what does it do? How does it work? What is the impact? </i> and <i> What should we do next?</i> or <i> How can
+            we do it better?)</i>
+        </div>
 
-
-    <p>Inclusive models of science communication factor prominently in achieving the goals of sustainability science
-      (Laura Lindfield et al., 2012). This case study explores the concept of a “tour” as a method for engaging our
-      youth participants in dialogue. Ellen Trahan et al. (2017) discuss the role of sustainability tours in raising the
-      profile of sustainability initiatives on campuses; however, while these authors focus on lecture-based tours, we
-      favor a learner-led approach more in line with Spring Gillard and Rob VanWynsberghe (2021). To structure our
-      learner led approach, we implement the Sustainable Design Dialogic Communication Framework (SDDCF), a version of
-      stasis theory designed to promote inquiry and structure dialogue, and later to help our participants conversations
-      through code-based multimodal making methods. While these tools and methods could provide meaningful learning
-      experiences for learners of any age, this outreach centers youth and seeks to provide meaningful opportunities for
-      youth to form knowledge, agency and identities around issues of environmental sustainability.</p>
-  </div>
-
-
-  <div class="parallax2"></div>
-  <div class="caption">
-    <p><i>Add a caption.</i></p>
-  </div>
-
-  <!-- Carousel -->
-  <!-- Source https://www.w3schools.com/bootstrap/bootstrap_carousel.asp -->
-  <div>
-
- 
-  <div id="myCarousel" class="carousel slide" data-ride="carousel" style="  margin-left: auto;
-;  margin-right: auto;overflow: hidden;
-  max-width: 100vh; max-height: auto;">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-      <li data-target="#myCarousel" data-slide-to="4"></li>
-      <li data-target="#myCarousel" data-slide-to=""></li>
-
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <a href="dawn/index.html" target="_blank"><img src="student_work_screenshots/dawn's_project.png" alt="Student Work"></a>
+        <!-- Carousel -->
+        <div>     
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-left: auto; margin-right: auto;overflow: hidden; max-width: 100vh; max-height: auto;">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to=""></li>
+                </ol>     
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="dawn/index.html" target="_blank"><img src="student_work_screenshots/dawn's_project.png" alt="Student Work"></a>
+                    </div>
+                    <div class="item">
+                        <a href="james/index.html" target="_blank"><img src="student_work_screenshots/james'_project.png" alt="Student Work"></a>
+                    </div>
+                    <div class="item">
+                        <a href="linda/index.html" target="_blank"><img src="student_work_screenshots/linda's_project.png" alt="Student Work"></a>
+                    </div>
+                    <div class="item">
+                        <a href="robert/index.html" target="_blank"><img src="student_work_screenshots/robert's_project.png" alt="Student Work"></a>
+                    </div>
+                    <div class="item">
+                        <a href="thomas/index.html" target="_blank"><img src="student_work_screenshots/thomas'_work.png" alt="Student Work"></a>
+                    </div>
+                    <div class="item">
+                        <a href="william/index.html" target="_blank"><img src="student_work_screenshots/william's_project.png" alt="Student Work"></a>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="caption">
+          <p><i>Carousel display of student artwork. </i></p>
       </div>
 
-      <div class="item">
-        <a href="james/index.html" target="_blank"><img src="student_work_screenshots/james'_project.png" alt="Student Work"></a>
-      </div>
+        <!-- introduction cotinued -->
+        <div class="text-block fade-in">
+            <p>The practice of sustainable design requires a synthesis of multiple knowledges and methods best interpreted
+            through the study of sustainability science, an area of research that examines the relationship between humans and
+            nature and develops sustainable solutions to address imbalance (Robert Kates et al., 2001). Because the field
+            emerged from conversations around sustainable development, it seeks to operationalize knowledge, however, early
+            contributors to the field disagreed on strategy. Some, David Cash et al. (2003) for example, imagined science and
+            technology experts as thought leaders: facilitating relationships with decision makers, translating scientific
+            knowledge, and mediating disputes with those who might interfere with policy action. Others like William Clark
+            &amp; Nancy Dickinson. (2003), advocated for a bottom-up approach, using place-based methods informed by local
+            perspectives and knowledges. Still others, including Anthony McMichael et al. (2003), understood environmental
+            problems as largely caused by human factors stemming from resource imbalances, poor market choices, and ignorance,
+            and thus called on a fields outside of the environmental sciences, including geography, economics, and
+            epidemiology, to prioritize environmental issues in their discourse and collaborate across disciplines to work
+            towards sustainable solutions.</p>
 
-      <div class="item">
-        <a href="linda/index.html" target="_blank"><img src="student_work_screenshots/linda's_project.png" alt="Student Work"></a>
-      </div>
+            <p>Today, the field of sustainability science requires a wide range of natural scientists, social scientists, and
+            even humanities scholars, working collaboratively to solve problems related to environmental sustainability (Anne
+            Jerneck et al., 2011). Sustainability science adopts a social-ecological systems approach to understanding human
+            and nature interaction as networked and occurring within and across local, regional, and global scales (Joern
+            Fischer et al., 2015). A social-ecological systems approach also interprets environmental sustainability solutions
+            as inextricably linked to issues of equity and social justice (Melissa Leach et al., 2010). Similarly, in
+            <i>Braiding Sweet Grass</i> (2013), Robin Kimmerer shares the indigenous concept of reciprocity, the equitable and
+            just giving and taking of only what one needs and shares how this concept is enacted both in nature and in
+            indigenous cultures. And while she provides a surplus of science evidence explaining the benefits of reciprocity,
+            she cautions us that at this moment in time, "it is not more data that we need […] but more wisdom" (p. 415). It
+            is the task of sustainability science to recognize such wisdom, and to synthesize different knowledge systems,
+            especially indigenous knowledge, and translate this knowledge into mutually agreed upon sustainability best
+            practices and policy (Maria Tengö et al., 2017). In addition to aligning research and knowledge with policy an
+            practice, institutions of higher education can advance sustainability goals grant funding, training for the
+            industries and communities they serve, and other modes of outreach (Issa Berchin et al. 2021).</p>
 
-      <div class="item">
-        <a href="robert/index.html" target="_blank"><img src="student_work_screenshots/robert's_project.png" alt="Student Work"></a>
-      </div>
+            <p>Carpenter, Serena et al. (2016).</p>
 
-      <div class="item">
-        <a href="thomas/index.html" target="_blank"><img src="student_work_screenshots/thomas'_work.png"
-            alt="Student Work"></a>
-      </div>
+            <p>Inclusive models of science communication factor prominently in achieving the goals of sustainability science
+            (Laura Lindfield et al., 2012). This case study explores the concept of a "tour" as a method for engaging our
+            youth participants in dialogue. Ellen Trahan et al. (2017) discuss the role of sustainability tours in raising the
+            profile of sustainability initiatives on campuses; however, while these authors focus on lecture-based tours, we
+            favor a learner-led approach more in line with Spring Gillard and Rob VanWynsberghe (2021). To structure our
+            learner led approach, we implement the Sustainable Design Dialogic Communication Framework (SDDCF), a version of
+            stasis theory designed to promote inquiry and structure dialogue, and later to help our participants conversations
+            through code-based multimodal making methods. While these tools and methods could provide meaningful learning
+            experiences for learners of any age, this outreach centers youth and seeks to provide meaningful opportunities for
+            youth to form knowledge, agency and identities around issues of environmental sustainability.</p>
+        </div>
 
-      <div class="item">
-        <a href="william/index.html" target="_blank"><img src="student_work_screenshots/william's_project.png" alt="Student Work"></a>
-      </div>
-
-
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </div>
-
-
-
-    <!-- YOUTH SECTION -->
-    <div class="text-block fade-in" style="text-align: left">
-      <h2>YOUTH AND THE COMMUNICATION OF SCIENCE</h2>
-      <p>Since the first volume of Le Journal des Sçavans on January 5th, 1665, the diffusion of scientific knowledge
-        has
-        largely followed the same linear progression. It begins with the scientists, those experts who hypothesize,
-        gather
-        data, form knowledge, and publish their findings. Next, this knowledge is abstracted and disseminated to the
-        public by mediators and powerbrokers, i.e., journalist, politicians, educators, business entities, even movie
-        stars. Science communicators have long referred to this linear progression as the deficit model of science
-        communication, in that it assumes scientist have the tools, bone fides, and authority the public lack. But over
-        the last thirty years, the field of science communication, aided by social epistemic theory and ethnographic
-        methods, has come to understand the public’s scientific knowledge and interests in greater complexity (Terry
-        Burns
-        et al., 2003), as <i>more</i> “active, knowledgeable, playing multiple roles, receiving as well as shaping
-        science” (Edna Einsiedel, 2007, p.5). This is not to say that in the years since, the deficit model has been
-        wholly upended (Brian Trench, 2008) or that scientist play a diminished role in the formation of scientific
-        knowledge (Carina Cortassa, 2016). Rather, what we can claim, is that our understanding of what constitutes
-        science communication has broadened. For example, Brian Trench and Massimiano Bucchi (2021) theorize science
-        communication along a continuum of modes, models, and applications ranging from exclusive to inclusive: on one
-        end, they locate the aforementioned deficit model and other top-down approaches, and on the other, bottom-up
-        participatory models encouraging the public to take part in both the formation and communication of scientific
-        knowledge through activities like citizen science. Between these polls, they place dialogic models meant to
-        engage
-        the public in inquiry, discussion, and deliberation. To further their discussion, the authors challenge science
-        communicators to examine the injustice and inequity inherent in these models, but also their efficacy “in terms
-        of
-        how, and how much, a given practice or set of practices stimulate wider conversation” (p.9) For strategic,
-        ethical, and legal reasons, we should also consider <i>where do our youth fit on such a continuum?</i></p>
-
-      <p>There are many reasons why we should prioritize youth in science communication. We should start by recognizing
-        that children have a powerful ability to influence one another in areas of science participation (Glynis
-        Breakwell
-        &amp; Sue Beardsell, 1992) and environmental activism (Hannah Wallis and Laura S. Loy, 2021). Children also have
-        the ability to influence adults, as demonstrated by the “Greta Thunberg Effect” (Anandita Sabherwal et al.,
-        2021);
-        the eponymous phenomenon explaining how individuals of various ages are more likely to participate in collective
-        action against climate change after having heard Thunberg’s message. Science communicators have also recognized
-        youths’ ability to leverage social media, especially around issues related to environmental justice. Francesca
-        Belotti et al. (2022) document how youth climate activist master a range of social media tools and tailor
-        messages
-        for specific users in order to build networks out of disparate nodes to achieve a variety of organizational,
-        educational, and political goals related to climate action. Recognizing this skill, other scholars believe
-        scientists should work more directly with youth to create social media messaging, build consensus, and deliver
-        policy targets (Eide, Elisabeth &amp; Risto Kunelius. 2021). Science communication strategy is especially
-        important in the area of environmental sciences, where attitudes about the environment range wildly and the
-        communication medium plays an important role in whether or not individuals choose to listen (Jessica Bolin &amp;
-        Lawrence Hamilton 2018).</p>
-    </div>
-
-    <div>
-      <!-- Image -->
-      <img class="text-block up" src="robert\img8.jpg" style="border-radius:25px;">
-      <!-- Animated Bees on image/side -->
-      <div class="flowersBee5">
-        <img src="bees/bee5.png" style="float:right;width:6vw;height:auto;top:-37.5vw;left:-12vw;position:absolute"
-          class="bee6">
-      </div>
-      <div class="flowersBee3">
-        <img src="bees/bee1.png" style="width:3.3vw;height:auto;top:-26vw;left:-16vw;position:absolute" class="bee6">
-      </div>
-      <div class="flowersBee4">
-        <img src="bees/bee2.png" style="width:3.3vw;height:auto;top:-28vw;left:-5vw;position:absolute" class="bee6">
-      </div>
-    </div>
-
-    <div class="text-block fade-in" style="text-align: left;margin-top:-1vw">
-      <p>Taking a different line argument, Matteo Mergoza and Tricia Jenkins (2013) see the inclusion of children in the
-        communication of science as an ethical imperative because children will pay the greatest price for or our
-        current
-        science policies and practices. They challenge science communicators to develop new dialogic models of science
-        communication that center youth and their own exigencies as they relate to environmental science and policy.
-        “Through such an approach, science in the perception of young people can indeed become a tool to design a world
-        as
-        close as possible to the world in which they would like to live, rather than external knowledge that a child
-        just
-        needs to learn in order to live in whatever world is proposed to him or her” (p.3). And still other science
-        communicators emphasize the legal reasons for doing so; Elizabeth Welty and Laura Lundy’s (2013) “voice model
-        for
-        involving youth in decision making” cites the UN Convention on the Rights of the Child (1989) which codified a
-        child’s right to “scientific and technical knowledge” (Article 28) and the right to form and “express […] views
-        freely in all matters affecting the child, the views of the child being given due weight in accordance with the
-        age and maturity of the child” (Article 12) and that “[t]he child shall have the right to freedom of expression;
-        this right shall include freedom to seek, receive and impart information and ideas of all kinds, regardless of
-        frontiers, either orally, in writing or in print, in the form of art, or through any other media of the child's
-        choice” (Article 13). Working from these first principles, Welty and Lundy advocate for the empowerment of our
-        youth as active participants in shaping policies and practices that affect their lives and underscore the
-        pivotal
-        role of science education and communication methods play in this process. Every child, they argue, has a right
-        to:
-      </p>
-
-      <i>
-        <ol>
-          <li>Space – safe and inclusive opportunity to form and express a view </li>
-
-          <li>Voice – facilitated to express views freely in medium of choice </li>
-
-          <li>Audience – the view must be listened to </li>
-
-          <li>Influence – the view must be acted upon </li>
-        </ol>
-      </i>
-
-      <p style="text-align:center">–Welty &amp; Lundy, 2013</p>
-
-      <p>Following Welty and Lundy’s voice model, this research adopts a hybrid approach to creating an inclusive
-        science
-        communication experience for our youth that includes <b>spaces</b> for dialogic inquiry, tools for
-        <b>voicing</b>
-        this knowledge, and opportunities for children to circulate their findings to an <b>audience</b>, and thus the
-        opportunity to <b>influence</b> policy.</p>
-    </div>
+        <div class="parallax2"></div>
+        <div class="caption">
+            <p><i>Colored rendition of the flowers planned for Bigelow Boulevard, Pittsburgh. </i></p>
+        </div>
 
 
+        <!-- YOUTH SECTION -->
+        <div class="text-block fade-in" id="youth">
+            <h2>YOUTH AND THE COMMUNICATION OF SCIENCE</h2>
 
+            <p>Since the first volume of Le Journal des Sçavans on January 5th, 1665, the diffusion of scientific knowledge
+            has largely followed the same linear progression. It begins with the scientists, those experts who hypothesize,
+            gather data, form knowledge, and publish their findings. Next, this knowledge is abstracted and disseminated to the
+            public by mediators and powerbrokers, i.e., journalist, politicians, educators, business entities, even movie
+            stars. Science communicators have long referred to this linear progression as the deficit model of science
+            communication, in that it assumes scientist have the tools, bone fides, and authority the public lack. But over
+            the last thirty years, the field of science communication, aided by social epistemic theory and ethnographic
+            methods, has come to understand the public's scientific knowledge and interests in greater complexity (Terry
+            Burns et al., 2003), as <i>more</i> "active, knowledgeable, playing multiple roles, receiving as well as shaping
+            science" (Edna Einsiedel, 2007, p.5). This is not to say that in the years since, the deficit model has been
+            wholly upended (Brian Trench, 2008) or that scientist play a diminished role in the formation of scientific
+            knowledge (Carina Cortassa, 2016). Rather, what we can claim, is that our understanding of what constitutes
+            science communication has broadened. For example, Brian Trench and Massimiano Bucchi (2021) theorize science
+            communication along a continuum of modes, models, and applications ranging from exclusive to inclusive: on one
+            end, they locate the aforementioned deficit model and other top-down approaches, and on the other, bottom-up
+            participatory models encouraging the public to take part in both the formation and communication of scientific
+            knowledge through activities like citizen science. Between these polls, they place dialogic models meant to
+            engage the public in inquiry, discussion, and deliberation. To further their discussion, the authors challenge science
+            communicators to examine the injustice and inequity inherent in these models, but also their efficacy "in terms
+            of how, and how much, a given practice or set of practices stimulate wider conversation" (p.9) For strategic,
+            ethical, and legal reasons, we should also consider <i>where do our youth fit on such a continuum?</i></p>
 
+            <p>There are many reasons why we should prioritize youth in science communication. We should start by recognizing
+            that children have a powerful ability to influence one another in areas of science participation (Glynis
+            Breakwell &amp; Sue Beardsell, 1992) and environmental activism (Hannah Wallis and Laura S. Loy, 2021). Children also have
+            the ability to influence adults, as demonstrated by the "Greta Thunberg Effect" (Anandita Sabherwal et al.,
+            2021); the eponymous phenomenon explaining how individuals of various ages are more likely to participate in collective
+            action against climate change after having heard Thunberg's message. Science communicators have also recognized
+            youths' ability to leverage social media, especially around issues related to environmental justice. Francesca
+            Belotti et al. (2022) document how youth climate activist master a range of social media tools and tailor
+            messages for specific users in order to build networks out of disparate nodes to achieve a variety of organizational,
+            educational, and political goals related to climate action. Recognizing this skill, other scholars believe
+            scientists should work more directly with youth to create social media messaging, build consensus, and deliver
+            policy targets (Eide, Elisabeth &amp; Risto Kunelius. 2021). Science communication strategy is especially
+            important in the area of environmental sciences, where attitudes about the environment range wildly and the
+            communication medium plays an important role in whether or not individuals choose to listen (Jessica Bolin &amp;
+            Lawrence Hamilton 2018).</p>
+        </div>
 
+        <div>
+            <!-- Image -->
+            <img class="text-block up" src="robert\img8.jpg" style="border-radius:25px;" alt="Blooming pink flowers.">
+            <div class="caption" style="margin-top: -4vh;" >
+              <p><i>Blooming pink flowers with animated bees flying on top. </i></p>
+            </div>
+            <!-- Animated Bees on image/side -->
+            <div class="flowersBee5">
+                <img src="bees/bee5.png" style="float:right;width:6vw;height:auto;top:-37.5vw;left:-12vw;position:absolute"
+                class="bee6">
+            </div>
+            <div class="flowersBee3">
+                <img src="bees/bee1.png" style="width:3.3vw;height:auto;top:-26vw;left:-16vw;position:absolute" class="bee6">
+            </div>
+            
+            <div class="flowersBee4">
+                <img src="bees/bee2.png" style="width:3.3vw;height:auto;top:-28vw;left:-5vw;position:absolute" class="bee6">
+            </div>
+        </div>
+      
 
-    <div class="parallax"></div>
-    <div class="caption">
-      <p><i>Add a caption.</i></p>
-    </div>
+        <!-- youth continued -->
+        <div class="text-block fade-in" style="margin-top:3vw">
+            <p>Taking a different line argument, Matteo Mergoza and Tricia Jenkins (2013) see the inclusion of children in the
+            communication of science as an ethical imperative because children will pay the greatest price for or our
+            current science policies and practices. They challenge science communicators to develop new dialogic models of science
+            communication that center youth and their own exigencies as they relate to environmental science and policy.
+            "Through such an approach, science in the perception of young people can indeed become a tool to design a world
+            as close as possible to the world in which they would like to live, rather than external knowledge that a child
+            just needs to learn in order to live in whatever world is proposed to him or her" (p.3). And still other science
+            communicators emphasize the legal reasons for doing so; Elizabeth Welty and Laura Lundy's (2013) "voice model
+            for involving youth in decision making" cites the UN Convention on the Rights of the Child (1989) which codified a
+            child's right to "scientific and technical knowledge" (Article 28) and the right to form and "express […] views
+            freely in all matters affecting the child, the views of the child being given due weight in accordance with the
+            age and maturity of the child" (Article 12) and that "[t]he child shall have the right to freedom of expression;
+            this right shall include freedom to seek, receive and impart information and ideas of all kinds, regardless of
+            frontiers, either orally, in writing or in print, in the form of art, or through any other media of the child's
+            choice" (Article 13). Working from these first principles, Welty and Lundy advocate for the empowerment of our
+            youth as active participants in shaping policies and practices that affect their lives and underscore the
+            pivotal role of science education and communication methods play in this process. Every child, they argue, has a right
+            to:
+            </p>
+            <i>
+                <ol>
+                    <li>Space – safe and inclusive opportunity to form and express a view </li>
+                    <li>Voice – facilitated to express views freely in medium of choice </li>
+                    <li>Audience – the view must be listened to </li>
+                    <li>Influence – the view must be acted upon </li>
+                </ol>
+            </i>
+            <p style="text-align:center">–Welty &amp; Lundy, 2013</p>
 
+            <p>Following Welty and Lundy's voice model, this research adopts a hybrid approach to creating an inclusive
+            science communication experience for our youth that includes <b>spaces</b> for dialogic inquiry, tools for
+            <b>voicing</b> this knowledge, and opportunities for children to circulate their findings to an <b>audience</b>, and thus the
+            opportunity to <b>influence</b> policy.</p>
+        </div>
 
-    <!-- DIALOGIC COMMUNICATION -->
-    <div class="text-block fade-in" style="text-align: left">
-      <h3>DIALOGIC COMMUNICATION TOOLS</h3>
-      <p>A sociocultural approach to knowledge formation emphasizes the dynamic interaction between individuals and
-        their
-        cultural and social contexts in the construction and transmission of knowledge. Rooted in the early twentieth
-        century work of Lev Vygotsky (1978) and his theory of sociocultural development, this approach views knowledge
-        as
-        co-constructed through social interactions within specific cultural settings. It recognizes that individuals are
-        not passive recipients of knowledge, but active participants in its creation and dissemination. Per Linell
-        (2009)
-        notes that active participation, what we refer to as dialogic communication, relates to how human beings make
-        sense of the world through “meaning making activities that are mediated in and through language, words, signs,
-        symbols, or concepts’’ (p.4). Dialogic science communication seeks to bridge the gap between experts and the
-        public through both the communication and formation of scientific knowledge. However, the dialogic model of
-        science communication does not occur in a specific moment in space and time. Rather, we should, as researchers
-        and
-        interlocutors, understand it as inherently complex, yet fecund. As Bridie McGreavy et al. argue (2015),
-        “Approaching communication as a complex system means that our interventions are always incomplete because human
-        interactions are recursively guided by context-specific structures and processes that are always in a state of
-        becoming” (p.9). The complexity of human dialogue requires iteration; interlocutors must engage with and
-        consider
-        the knowledge and perspectives of others and reassert or reorganize their thinking based on a given exchange.
-        Dialogic communication, as an active communication strategy, also requires a great deal of effort and
-        accountability from all parties. Participants and organizations engaged in dialogue must yield control while
-        opening themselves to uncertain outcomes and other risks (Kent, Michael L., & Taylor, Maureen, (2002). Dialogic
-        communication models have proven their value in the context of working with youth: Kristen Marcell et al. (2004)
-        have demonstrated that youth are more likely to internalize environmental knowledge through dialogic models.
-        Other
-        researchers have demonstrated the benefits of using such models in diverse settings working with populations of
-        vastly different backgrounds (Rupert Wegerif et al, 2013).</p>
-
-
-
-      <p>Dialogic science communication theory and methods naturally overlap with research in the field of education,
-        which focuses more narrowly on how learners actively engage with both educators and peers through meaningful
-        dialogue. Some of this research focuses both on teacher-centered learning spaces where science instructors use
-        inquiry to bridge cognitive divides (Mortimer, Eduardo &amp; Scott, Phillip, 2003), decenter authority (Scott,
-        Phillip, &amp; Ametller, Juame, 2007), and assess student knowledge (Neil Mercer et al., 2009), while others
-        favor
-        the dialogic as means of empowering students, giving each the tools to initiate and facilitate meaningful
-        dialogue
-        on their own. Rosalind Driver et al. (2000), for example present the case for teaching argument to promote
-        scientific norms in the secondary science classroom. Argument, they say, mirrors how scientists, themselves,
-        construct knowledge. While these researchers briefly discuss argument as “debate,” they define the term more
-        broadly, explaining argument as an individual and collective act, taking many forms including written and spoken
-        discourse. They say that in addition to helping students understand the social epistemic nature of science,
-        argument prepares students for civic engagement. Although they feature Stephen Toulmin’s (1958: 2003) work on
-        argumentation as a framework for understanding how argument occurs in natural language, they caution that
-        understanding argumentative structure does not necessarily assist students in assessing the value of the actual
-        scientific data. Here, they seem to be saying that teaching argumentation also requires educators to teach the
-        kinds of critical thinking skills needed to analyze, assess and communicate data. Other researchers see the
-        value
-        in prescribing Toulmin more strategically, as “patterns” students can use to 1. analyze and structure scientific
-        arguments <i>and</i> 2. engage the ideas of others through “dialogical argumentation” (Sibel Erduran, et al,
-        2004). In the first case, the researchers promoted Toulmin argument patterns (TAP) to help students structure
-        conversations around science topics. In the second, they required students use TAP while working in small groups
-        more akin to debate. In this latter case, students were asked to acknowledge and incorporate their
-        interlocutor’s
-        argument within their own by way rebuttal. The work of Stan Frijters et al (2008) demonstrate that debate
-        strategies requiring students to take a specific position on an issue are highly effective in building critical
-        thinking skills and science knowledge in youth. However, they also warn of its overuse, in that debate can
-        require
-        a great deal of energy on the part of students. Their research found that the more students engaged in debate,
-        the
-        less they liked this mode of instruction.</p>
-
-
-
-      <p>This sustainable design case study is similarly interested in the using argument as a tool to structure
-        dialogic
-        engagement, but less interested in defining argument as adversarial or debate oriented. Because of the
-        exploratory, co-creative nature of our project, we see the value of using stasis theory as a tool for both
-        guiding
-        inquiry and structuring argument. A range of ancient rhetoricians contributed to stasis theory and its
-        application
-        from Aristotle and Hermagoras in Ancient Greece to Cicero and Quintilian in Ancient Rome (Sharon Crowley and
-        Debra
-        Hawhee, 1999). Modern rhetoricians have similarly addressed the use of stasis theory in science (Jeanne
-        Fahnestock
-        and Maria Secor, 1988) and engineering (Suzanne Lane, 2022) contexts. This latter research suggests stasis
-        theory
-        can equip engineering students with a “framework of critical analysis [that] can help to turn a host of
-        conflicting claims and multiple uncertainties into an ordered process of problem solving” (p.3). Greek stasis
-        theory involves four questions, that of: conjecture (What happened?), definition (What is it?), quality (What
-        are
-        the implications?), and policy (What should we do next?). Janet Davis (1996) argues that stasis theory provides
-        a
-        valuable tool for inquiring into a topic (judicial rhetoric), making judgements (epideictic rhetoric), and
-        forming
-        policy (deliberative rhetoric). This case study similarly explores how we might adapt and apply stasis theory as
-        a
-        dialogic communication tool for promoting inquiry in the field and constructing knowledge in deliberative
-        workshop
-        spaces.</p>
-
-
-
-      <p>Data collection and analysis figure prominently in the three questions of stasis theory, that of conjecture,
-        definition, and quality. These first three questions also align with Dewey’s (1933:2022) understanding of human
-        beings as innately curious for knowledge and thus predisposed to do the work of science. Dewey, and the
-        empiricist
-        who followed him, believe that individuals learn best observing, testing, and reasoning through direct
-        engagement
-        with scientific phenomena (68-72). In that humans are innately curious, “All knowledge, all science, thus aims
-        to
-        grasp the meaning of objects and events” (p. 117). It is no wonder that later constructivist methods especially
-        their focus on inquiry and problem-solving have their origins in Dewey’s work (Johnston, James Scott, 2013).
-        Crowd
-        sourcing apps like “Cornell Bird Lab,” “iNaturalist,” and “Seek” try to harness this same curiosity, inviting
-        the
-        user to investigate nature and even collaborate in the data collection process. In the case of iNaturalist, the
-        app follows best practices (Ulrike Sturm et al, 2018) by affording location data sharing, media file uploads,
-        and
-        forums to share “observations” in significant detail. While many researchers see digital media as a tool for
-        advancing citizen science, others note that not all crowd sourcing apps contribute significantly to the
-        formation
-        of environmental knowledge. Tools that afford users the ability to analyze their data, especially in relation to
-        other user data will do the most to allow individuals to make judgements and form knowledge (Joseph Roche et al,
-        2020). This case study is also interested in the fourth question of stasis, that of policy, helping our
-        participants think about <i>what should we do next?</i>. While we see our participants understanding of policy
-        emerging in the field, we imagine it will solidify in the workshop space where students work alongside one
-        another
-        building their science communication document.</p>
-    </div>
-
-
-
-    <img class="frame up" src="bee1.png" alt="describe the image HERE for accessibility purposes">
-    <div class="caption">
-      <p><i>Add a caption</i></p>
-    </div>
-
-    <div class="text-block fade-in" style="text-align: left">
-      <h3>DATA COLLECTION AND DELIBERATIVE MAKING</h3>
-      <p>Data collection, analysis, and judgement figure prominently in the first three questions of stasis theory:
-        conjecture: (Where does this occur?), definition (What is it?), and quality (Why is it important?). They also
-        align with Dewey’s understanding of human beings as innately curious for knowledge and thus predisposed to do
-        the
-        work of science. Dewey, and the empiricist who followed him, believe that due to human curiosity, individuals
-        learned best through direct engagement with scientific phenomena by deductively or inductively observing,
-        testing,
-        and reasoning (68-72) and that without such lines of inquiry, life would be nonsensical. “All knowledge, all
-        science, thus aims to grasp the meaning of objects and events” Dewey 1933; 2022 p.117). It’s no wonder that
-        constructivist related methods including inquiry and problem-solving have their origins in Dewey’s work
-        (Johnston,
-        J. S. (2013). Similarly, many crowd sourcing apps like “Cornell Bird Lab,” “iNaturalist,” and “Seek” invite the
-        user to investigate nature and even collaborate in the data collection process. In the case of iNaturalist, the
-        app offers opportunities for the user to share location data, media files, and record “observations” in
-        significant detail. While some researchers see digital media as a tool for advancing citizen science, others
-        note
-        that not all crowd sourcing apps contribute significantly to the formation of knowledge. For example, Roche et
-        al
-        (2020) argue that those who design citizen science tools must prioritize environmental knowledge along with data
-        collection as user experience goals. In addition to collecting data, apps that afford users the ability to
-        analyze
-        their data especially in relation to other user data will do the most to allow individuals to make judgements
-        and
-        form knowledge. <br><br>
-        It is also important to think about how explicitly these tools address questions of deliberation. If these apps
-        do
-        not afford opportunities for communicative engagement with other users, we should consider how use of these apps
-        correlates with engagement elsewhere, in virtual and actual spaces. In addition to data collection and analysis,
-        this project is interested in creating a deliberative workshop space and empowering students with tools to make
-        their voices heard. For Sennet (2012), a deliberative workshop space allows for divergent thinking processes so
-        that each might learn from the knowledges and skills of others. Rather than seeing craft as stagnant, Sennet
-        imagines a creative synergy emerging in a shared workshop space, but also dialogic communicative practice, where
-        different theories and methods are practiced, discussed, and judged alongside one another. A deliberative
-        workshop
-        space fosters creativity, knowledge, and practice that would not be possible if we worked independent of one
-        another. Like Bussey (2023), we hope to use such a workshop space to develop a “communicative praxis […] as a
-        platform for joint construction of meaning around sustainability practices as well as for co-creation of
-        knowledge
-        and practices that could enhance our capability to act and navigate wicked sustainability issues” (p.50).
-        Lindenfeld et al 2012
-      </p>
-    </div>
-
-    <div class="text-block" style="text-align: left">
-      <h2>Header</h2>
-      <p></p>
-    </div>
-
-    <div class="text-block" style="text-align: left">
-      <h2>Header</h2>
-      <p>.</p>
-    </div>
-
-    <div class="text-block" style="text-align: left">
-      <h2>Header</h2>
-      <p>.</p>
-    </div>
-
-    <div class="text-block" style="text-align: left">
-      <h2>Header</h2>
-      <p>.</p>
-    </div>
-
-
-    <div class="logo">
-      <img src="bee2.png" alt="Open Fuego Flame" style="max-width:25%;max-height:25%;">
-      <p><b>generated by <a href="https://open-fuego.github.io/Open-Fuego-Coding-Tools/">Open Fuego</a></b></p>
-      <p><em>Why make a spark when you can light a fire?</em></p>
-    </div>
-
-    <div class="up" style="width: 100%;  padding: 0; margin: 0;">
-      <img src="plants.png" style="padding:0; margin: -150px 0px; width: 100%;">
-    </div>
-
-
-
-
-
-</body>
-
-</html>
-
-
-
-
-<!--Looking to add components? You've come to the right place. Copy and paste Code Snippets and add to the body section. Adjust class properties on style.css.
-
-
+        <div class="parallax"></div>
+        <div class="caption">
+            <p><i>Watercolor rendition of students on campus.</i></p>
+        </div>
         
-     Looking to publish this webtext in GitHub? Here are your next steps:
 
-     Sign in to GitHub. Create a new repository. Name it. Click “uploading an existing file,” then select/drag and drop all of your files... all of them, index.html. style.css, readme, and your image assets. Click "commit." Now go to your repository "settings." Scroll down to "Pages." Here you will change "source" from "none" to "main" branch. This will publish your webtext online. Copy your URL from this settings page...and now it's time to circulate your webtext! Peace and love only, Stephen Quigley, University of Pittsburgh, 2021.-->
+        <!-- DIALOGIC COMMUNICATION -->
+        <div class="text-block fade-in" style="text-align: left" id="dialogic">
+            <h3>DIALOGIC COMMUNICATION TOOLS</h3>
 
+            <p>A sociocultural approach to knowledge formation emphasizes the dynamic interaction between individuals and
+            their cultural and social contexts in the construction and transmission of knowledge. Rooted in the early twentieth
+            century work of Lev Vygotsky (1978) and his theory of sociocultural development, this approach views knowledge
+            as co-constructed through social interactions within specific cultural settings. It recognizes that individuals are
+            not passive recipients of knowledge, but active participants in its creation and dissemination. Per Linell
+            (2009) notes that active participation, what we refer to as dialogic communication, relates to how human beings make
+            sense of the world through "meaning making activities that are mediated in and through language, words, signs,
+            symbols, or concepts'' (p.4). Dialogic science communication seeks to bridge the gap between experts and the
+            public through both the communication and formation of scientific knowledge. However, the dialogic model of
+            science communication does not occur in a specific moment in space and time. Rather, we should, as researchers
+            and interlocutors, understand it as inherently complex, yet fecund. As Bridie McGreavy et al. argue (2015),
+            "Approaching communication as a complex system means that our interventions are always incomplete because human
+            interactions are recursively guided by context-specific structures and processes that are always in a state of
+            becoming" (p.9). The complexity of human dialogue requires iteration; interlocutors must engage with and
+            consider the knowledge and perspectives of others and reassert or reorganize their thinking based on a given exchange.
+            Dialogic communication, as an active communication strategy, also requires a great deal of effort and
+            accountability from all parties. Participants and organizations engaged in dialogue must yield control while
+            opening themselves to uncertain outcomes and other risks (Kent, Michael L., & Taylor, Maureen, (2002). Dialogic
+            communication models have proven their value in the context of working with youth: Kristen Marcell et al. (2004)
+            have demonstrated that youth are more likely to internalize environmental knowledge through dialogic models.
+            Other researchers have demonstrated the benefits of using such models in diverse settings working with populations of
+            vastly different backgrounds (Rupert Wegerif et al, 2013).</p>
 
-
-<!--Looking to add components? You've come to the right place. Copy and paste Code Snippets and add to the body section. Adjust class CSS properties on style.css.
-
-
-    ***Add Text Block***
-
-    (Format textblock using inline styling: text-align: left, center, justify, right. To improve accessibility, always left-align text longer than three lines; Format text: <i>italics</i>; <b>bold</b>; <u>underline</u>; <mark>highlight</mark>; <sup>superscript</sup>; <sub>subscript</sub>; Link Website: <a href="link">LinkName</a>; Line Breaks: <br></br>;
-
-  <div class="text-block" style="text-align: left">
-    <h2>Header</h2>
-       <p>We recommend using our mobile-ready text sizing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  </div>
-
-
-
-    ***Add Pull Quote***
-
-    (Format text: Italics: <i>italics</i>; Bold: <b>bold</b>. Change font and font size using CSS)
-
-  <div class="pull-quote" style="text-align: center">
-    <h2>Excepteur sint occaecat cupidatat non proident!</h2>
-  </div>
-
-
-
-    ***Bulleted Points or List***
-
-    (Nest within text-block or style using CSS. Change <ul> to <ol> in HTML to switch from unordered list to ordered list.)
-
-  <div>
-    <ul>
-      <li>first</li>
-      <li>second</li>
-      <li>third</li>
-    </ul>
-  </div>
-
-
-
-    ***Add Link that Looks Like a Button***
-
-    (Clearly label link action. For more stylings, find button-box class properties on style.css)
-
-  <div class="button-box">
-    <a href="https://open-fuego.github.io/Open-Fuego-Coding-Tools/" class="button">Go to Fuego</a>
-  </div>
-
-
-
-    ***Add CSS Flexbox Container with Placeholder Images***
-
-    (Add or subtract columns. Control column width using CSS.)
-
-  <div class="flexbox-container">
-    <div class="row">
-        <div class="column">
-            <img src="pgrid1.jpg" alt="describe the image HERE for accessibility purposes">
-            <img src="pgrid2.jpg" alt="describe the image HERE for accessibility purposes">
+            <p>Dialogic science communication theory and methods naturally overlap with research in the field of education,
+            which focuses more narrowly on how learners actively engage with both educators and peers through meaningful
+            dialogue. Some of this research focuses both on teacher-centered learning spaces where science instructors use
+            inquiry to bridge cognitive divides (Mortimer, Eduardo &amp; Scott, Phillip, 2003), decenter authority (Scott,
+            Phillip, &amp; Ametller, Juame, 2007), and assess student knowledge (Neil Mercer et al., 2009), while others
+            favor the dialogic as means of empowering students, giving each the tools to initiate and facilitate meaningful
+            dialogue on their own. Rosalind Driver et al. (2000), for example present the case for teaching argument to promote
+            scientific norms in the secondary science classroom. Argument, they say, mirrors how scientists, themselves,
+            construct knowledge. While these researchers briefly discuss argument as "debate," they define the term more
+            broadly, explaining argument as an individual and collective act, taking many forms including written and spoken
+            discourse. They say that in addition to helping students understand the social epistemic nature of science,
+            argument prepares students for civic engagement. Although they feature Stephen Toulmin's (1958: 2003) work on
+            argumentation as a framework for understanding how argument occurs in natural language, they caution that
+            understanding argumentative structure does not necessarily assist students in assessing the value of the actual
+            scientific data. Here, they seem to be saying that teaching argumentation also requires educators to teach the
+            kinds of critical thinking skills needed to analyze, assess and communicate data. Other researchers see the
+            value in prescribing Toulmin more strategically, as "patterns" students can use to 1. analyze and structure scientific
+            arguments <i>and</i> 2. engage the ideas of others through "dialogical argumentation" (Sibel Erduran, et al,
+            2004). In the first case, the researchers promoted Toulmin argument patterns (TAP) to help students structure
+            conversations around science topics. In the second, they required students use TAP while working in small groups
+            more akin to debate. In this latter case, students were asked to acknowledge and incorporate their
+            interlocutor's argument within their own by way rebuttal. The work of Stan Frijters et al (2008) demonstrate that debate
+            strategies requiring students to take a specific position on an issue are highly effective in building critical
+            thinking skills and science knowledge in youth. However, they also warn of its overuse, in that debate can
+            require a great deal of energy on the part of students. Their research found that the more students engaged in debate,
+            the less they liked this mode of instruction.</p>
         </div>
-        <div class="column">
-            <img src="pgrid3.jpg" alt="describe the image HERE for accessibility purposes">
-            <img src="pgrid4.jpg" alt="describe the image HERE for accessibility purposes">
+
+        <!-- Image -->
+        <div style="position:relative; overflow:hidden">
+            <img class="text-block up" src="dawn\img7.jpg" style=" border-radius:25px  " alt="Yellow flowers in front of the Posvar building.">
+            <!-- Animated Bees on the image/side -->
+            <div class="flowersBee2">
+                <img src="bees/bee5.png" style="width:6vw;height:auto;top:-20vw;left:-20vw;position:absolute" class="bee6">
+            </div>
+            <div class="flowersBee1">
+                <img src="bees/bee4.png" style="top:-60vw;left:10vw;position:absolute" class="bee6">
+            </div>
         </div>
-        <div class="column">
-            <img src="pgrid5.jpg" alt="describe the image HERE for accessibility purposes">
-            <img src="pgrid6.jpg" alt="describe the image HERE for accessibility purposes">
+        <div class="flowersBee3">
+            <img src="bees/bee1.png" style="width:3vw;height:auto;top:-37.5vw;left:-6vw;position:absolute" class="bee6">
         </div>
-    </div>
-        <p><i>Add a caption.</i></p>
-  </div>
+        <div class="flowersBee6">
+            <img src="bees/bee2.png" style="width:3.3vw;height:auto;top:-13vw;left:10vw;position:absolute" class="bee6">
+          </div>
+          <div class="caption" >
+            <p><i>Yellow flowers in front of the Posvar building, with animated bees flying on top. </i></p>
+          </div>
+        </div>
+        <!-- dialogic continued -->
+        <div class="text-block fade-in" style="text-align: left">
+            <p>This sustainable design case study is similarly interested in the using argument as a tool to structure
+            dialogic engagement, but less interested in defining argument as adversarial or debate oriented. Because of the
+            exploratory, co-creative nature of our project, we see the value of using stasis theory as a tool for both
+            guiding inquiry and structuring argument. A range of ancient rhetoricians contributed to stasis theory and its
+            application from Aristotle and Hermagoras in Ancient Greece to Cicero and Quintilian in Ancient Rome (Sharon Crowley and
+            DebraS Hawhee, 1999). Modern rhetoricians have similarly addressed the use of stasis theory in science (Jeanne
+            Fahnestock and Maria Secor, 1988) and engineering (Suzanne Lane, 2022) contexts. This latter research suggests stasis
+            theory can equip engineering students with a "framework of critical analysis [that] can help to turn a host of
+            conflicting claims and multiple uncertainties into an ordered process of problem solving" (p.3). Greek stasis
+            theory involves four questions, that of: conjecture (What happened?), definition (What is it?), quality (What
+            are the implications?), and policy (What should we do next?). Janet Davis (1996) argues that stasis theory provides
+            a valuable tool for inquiring into a topic (judicial rhetoric), making judgements (epideictic rhetoric), and
+            forming policy (deliberative rhetoric). This case study similarly explores how we might adapt and apply stasis theory as
+            a dialogic communication tool for promoting inquiry in the field and constructing knowledge in deliberative
+            workshop spaces.</p>
+
+            <p>Data collection and analysis figure prominently in the three questions of stasis theory, that of conjecture,
+            definition, and quality. These first three questions also align with Dewey's (1933:2022) understanding of human
+            beings as innately curious for knowledge and thus predisposed to do the work of science. Dewey, and the
+            empiricist who followed him, believe that individuals learn best observing, testing, and reasoning through direct
+            engagement with scientific phenomena (68-72). In that humans are innately curious, "All knowledge, all science, thus aims
+            to grasp the meaning of objects and events" (p. 117). It is no wonder that later constructivist methods especially
+            their focus on inquiry and problem-solving have their origins in Dewey's work (Johnston, James Scott, 2013).
+            Crowd sourcing apps like "Cornell Bird Lab," "iNaturalist," and "Seek" try to harness this same curiosity, inviting
+            the user to investigate nature and even collaborate in the data collection process. In the case of iNaturalist, the
+            app follows best practices (Ulrike Sturm et al, 2018) by affording location data sharing, media file uploads,
+            and forums to share "observations" in significant detail. While many researchers see digital media as a tool for
+            advancing citizen science, others note that not all crowd sourcing apps contribute significantly to the
+            formation of environmental knowledge. Tools that afford users the ability to analyze their data, especially in relation to
+            other user data will do the most to allow individuals to make judgements and form knowledge (Joseph Roche et al,
+            2020). This case study is also interested in the fourth question of stasis, that of policy, helping our
+            participants think about <i>what should we do next?</i>. While we see our participants understanding of policy
+            emerging in the field, we imagine it will solidify in the workshop space where students work alongside one
+            another building their science communication document.</p>
+        </div>
+        
+        <!-- IMAGE -->
+        <img class="frame up" src="bee1.png" alt="describe the image HERE for accessibility purposes">
+        <div class="caption">
+            <p><i>Watercolor rendition of a bee.</i></p>
+        </div>
 
 
+        <!-- METHODS -->
+        <div class="text-block fade-in" id="methods">
+            <h2>METHODS</h2>
 
-    ***Add Image Frame and Filters***
+            <p><i>Exploring Sustainable Design</i> is an offshoot of <i>My Nature Outing</i>, a nature and code education summer day camp for local youth held at different park and recreation centers. <i>My Nature Outing's</i> existing project architecture and administration proved essential to the implementation of this case study. Over four years, the program has developed a network of partnerships       organizations around Pittsburgh and has and important grant funding streams to finance technology and pay staff. The program works with a variety of partners including park rangers, nature center educators, community center managers, grant coordinators, colleagues, graduate and undergraduate research assistants, and university office staff. Without all of this labor, technology, and the knowledge gained over four years of programming, this case study would not be possible.</p>
+       </div>
 
-    (Control frame class and image properties with CSS.)
 
-  <img class="frame" src="fuego.jpg" alt="describe the image HERE for accessibility purposes">
-    <div class="caption">
-      <p><i>Add a caption</i></p>
-    </div>
+       <!-- INQUIRY AND DATA COLLECTION -->
+       <div class="text-block fade-in" id="data-collection">
+           <h2>INQUIRY AND DATA COLLECTION</h2>
+
+           <p><i>"Nothing before had made me thoroughly realize that science consists in grouping facts so that general laws or conclusions may be drawn from them"'</i></p>
+           <p style="text-align:center"><i>Darwin. Qtd in Dewey (1933; 2022) p.127</i></p>
+           <p>Participant data collection involved taking photographs at each location to document the site and conducting audio interviews with other participants later in the day to share reactions. The inquiry and data collection portion of this case study involved stops at a variety of sustainable design sites on our campus including green roofs, rain gardens, pollinator gardens, vegetable gardens, a community bicycle repair and rental shop, a used clothing boutique, and a food pantry. We wanted to give our participants a concept of sustainable design and a methodology for thinking about it. To create our Sustainable Design Dialogic Communication Framework (SDDCF), we generated four main questions and sub-questions that emerged from stasis theory.</p>
+           <ul> 
+               <li>What is it and what does it do? </li>
+               <li>How does it work? (How does the design function, by itself and in relation to surrounding spaces? How much does it cost?)</li>
+               <li>What is the impact? (Is it a worthwhile project? Who benefits? Who does it exclude?)</li>
+               <li>What should we do next? (Should we advocate for this design? or How can we do it better?)</li>
+           </ul>
+           <p>We prepared six project data sheets with relevant site information (history, scope, capacity, and when available, project cost.) we sourced from university websites, press releases, and news articles. These project sheets are meant to inform participant inquiry, not replace it. For example, when discussing the purpose a pollinator garden during one of our stops, we shared scientific data relating that 75 to 95% of all the Earth's plants that need pollination to reproduce (Jeff Ollerton et al., 2011) and that currently 40% of invertebrate pollinator species are facing extinction (Simon Potts et al., 2016). Likewise, when students visited a 200 year old tree on campus, we shared that the university has some of the 4,000 trees and 30 acres of tree canopy, with plans to enlarge it 50% by 2030 (Chan et al., 2019).</p>
+       </div>
+
+
+       <!-- HTML SCIENCE COMMUNICATION DOCUMENT -->
+       <div class="text-block fade-in" id="html-science-communcation">
+           <h2>HTML SCIENCE COMMUNICATION DOCUMENT</h2>
+
+           <p>After the inquiry and data collection, students returned to the classroom to build science communication documents they can share with others. Rather than using code to build a science communication document from scratch, participants worked with an HTML template and project files hosted in a project repository. The project files consist of a project README, placeholder images and an audio file, a style sheet, and a free and open-source MIT software license. The HTML document uses embedded code comments to help students edit text and manage project files. The CSS is built on the Open Fuego CSS framework, a modular codebase that allows users to quickly develop content using code snippets housed in a code repository within the HTML document. The software is Open-source and MIT licensed allowing others interested in sustainability tours or code education to examine the document or use the code in their own research. <br></br> This software design follows principles of basic coding pedagogy (Stephen Quigley 2022) to facilitate the goals of developing coding literacy (Vee, 2017), computational thinking (Wing, 2006), and basic computer science knowledge. Coding with others in a workshop space constitutes a deliberative practice where students work side-by-side, formulating arguments, incorporating data, constructing meaning. Following Richard Sennet (2012), we recognize the potential for creative synergy in the shared workshop space and its potential for a dialogic response. That is, in that a workshop might be a place where different theories and methods are practiced alongside one another, the workshop fosters an environment for creativity that would not be possible if craftspeople worked independent of one another. Like Marcus Bussey et al. (2023), we hope our workshop space will develop a "communicative praxis […] as a platform for joint construction of meaning around sustainability practices as well as for co-creation of knowledge and practices that could enhance our capability to act and navigate wicked sustainability issues" (p.50).</p>
+       </div>
+
+       <!-- IMAGE -->
+        <img class="text-block up" src="james/img4.jpg" style=" border-radius:25px  " alt="Pollinator garden next to the Cathedral of Learning.">
+        <div class="caption" style="margin-top: -4vh;">
+          <p><i>Pollinator garden next to the Cathedral of Learning. </i></p>
+        </div>
   
+      <!-- </div> -->
+     
+       <!--  TECHNOLOGY CONSIDERATIONS-->
+       <div class="text-block fade-in" id="tech-considerations">
+        <h2>Technology Considerations</h2>
 
+          <p>Hardware and software choices play an important role in the success of any digital praxis. Participants used Lenovo Chromebook Duet 2 in 1 laptop computers. This computer consists of a tablet with 8 mega pixel front facing camera (no zoom function) and a removable keyboard. For data collection, participants will use the tablet housed in a protective jelly case along with a small external USB-C type microphone which significantly enhances audio capture. When participants return from data collection and are ready to code, they can easily remove the protective case and add a keyboard and tablet stand. Using a single computer for data collection and coding solves the problem of file transfer between devices. Users of iPads will need to consider availability of keyboard or workflow options including file management and text editors. That said, it’s possible to complete this project on any iPad, iPhone, or any mobile phone running Android or Google operating systems. In our case, the majority of our participants already use Chromebooks in schools so process requires minimal onboarding. In terms of applications, we used the default camera application, default image editor, MP3 audio recorder, and Code Pad text editor.</p>
 
+          <p>Changing security protocols and emerging or discontinued technologies continually force changes to our teaching practices. While most participants already have Google accounts through their respective school districts, those accounts often forbid downloading unauthorized applications. As a workaround, each of our Chromebook has pre-installed project applications and a unique Google ID and password our staff controls. The same is true for GitHub. For many of our students, our program is their first introduction to GitHub file sharing and hosting. During our program’s first two years, students returned home with GitHub accounts, their first project repository, and website hosted on GitHub Pages. However, new two-factor safety protocols make this nearly impossible for our participants. We continue to host our participant project files on GitHub, but do so as sub-directories within our organization.</p>
 
-    ***Add Polaroid***
-
-    (Control image width using CSS.)
-
-  <div class="polaroid">
-    <img src="polaroid.jpg" alt="describe the image HERE for accessibility purposes">
-      <div class="polaroid-caption">
-        <p><i>Add a caption</i></p>
+          <p>To Get started, students go to our project repository and follow the steps on our project README to download the project files to their local computer, move the files to a stable place in their local files, and test what happens when they try to open the index.html file in their project folder. From here, students are ready to add their own assets to the project folder and edit files using a text editor. All of the directions for working with code are embedded as code comments with the index.html document. We go through some of the lines of code to help participants get started, and then encourage them to work together to complete their science communication document. Once students are finished, we collect their project folder using a USB flash drive and add it to a dedicated GitHub repository custom built for each camp. The repository consists of a root directory site and sub-directories organized by student first name. Each student project is added to its own unique sub-directory which makes sharing student project URLs very simple. Adding a USB flash drive to our workflow has proven useful in other ways. When internet fails, we can run our camp using a USB-C flash drive to share files in both directions.</p>
       </div>
-  </div>
 
 
+    <!-- RESEARCH GOALS AND PROJECT ASSESSMENT -->
+    <div class="text-block fade-in" id="research-goals">
+      <h2>RESEARCH GOALS AND PROJECT ASSESSMENT</h2>
 
-      ***Add Image Container with Text Box***
-
-      (Control Image Container properties using CSS.)
-
-  <div class="image-container">
-    <img src="fuego.jpg" alt="describe image here">
-      <div class="image-container-text">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p>This case study assessment examines participants’ ability to apply the Sustainable Design Dialogic Communication Framework both as a tool for inquiry and for constructing a science communication document.</p>
+          
+          <p><b>G1: Students will use the Sustainable Design Dialogic Communication Framework to inquire into and form arguments related to sustainable design. </b></p>
+          
+          <p><b>G2: Students will develop a working definition of sustainable design and a methodology for asking questions, gathering data, communicating their findings, and influencing others. </b></p>
+          
+          <p><b>G3: Students will understand local sustainable design sites as part of a larger networked approach to addressing environmental problems. </b></p>
+          
+          <p><b>G4: Students will see the connections between social justice and environmental justice.
+          
+          Accessibility. </b></p>
+          
+          <p><b>G5: Students will learn basic coding skills and follow best practices to communicate their findings. </b></p>
+          
+          <p>We assessed our project using notes detailing our formal assessment in the field and by examining participant science communication documents. We also assessed data from participants’ parents about their child’s perceived interests/attitudes about sustainable design following our session along with our participants’ ability to influence others in matters of environmental knowledge, including their friends and family.</p>
       </div>
-  </div>
 
 
+  <!-- RESULTS -->
+      <div class="text-block fade-in" id="results">
+        <h1>RESULTS</h1>
 
-    ***Add Parallax Window***
-
-      (Adjust window height using parallax class on style.css)
-
-  <div class="parallax"></div>
-    <div class="caption">
-      <p><i>Add a caption.</i></p>
-  </div>
-
-
-
-     ***Embed YouTube Video***
-
-  <div class="video">
-    <div class="video-container">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/QzMJtLUncIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p>The project recruited six middle school students using posted flyers and by emailing university contact lists. Most of the children recruited for this project had at least one parent affiliated with the university and some familiarity with the campus. One undergraduate research assistant worked with me on the day, greeting participants, verifying parent contacts, assisting with the inquiry and data collection, and helping students debug code problems. The camp began in a classroom space. As participants trickled in, we put them to work making name tags and coloring in sustainability-themed coloring books. Once all of our participants all arrived, we made introductions and discussed our goals for the day. Participants next downloaded the project template from G collect. Before heading to the field, we spent time discussing our Chrome apps and photography technique.</p>
+          
+          <p>At our first sustainable design site, a monocultured lawn situated in a courtyard between entrances to different engineering related offices and classrooms, we introduced the Sustainable Design Dialogic Communication Framework. The following example is meant to demonstrate how we encouraged inquiry and dialogic communication using this method: </p>
+          
+          <p><i>“We’re standing on our first sustainable design feature, but what exactly is it and what does it do?”</i> Our participants understood it to be a lawn and expressed that it was a nice thing amid so much concrete. <i>But what makes it sustainable? How does it work?</i> With more prompting, they recognized the lawn’s ability to retain water and that’s better than the alternative—more concrete. They suggested it provided a place for students to relax and study and they thought that made it sustainable. When the discussion died, we encouraged our participants to use photography to explore the design space more closely, especially the design in relation to the other spaces with which it connects. Soon after, one of our participants ran back shouting, “we’re on a roof!” That was true, and we let them know from our project data sheet that this was one of nine green roofs at the university. Learning this information led us back to our second question: <i>How does it work?</i> Students understood that green roofs were cooler and would retain more water than a standard roof. <i>Next we asked why this was important?</i> Less runoff. From our project data sheet we learned that while green roofs are more expensive on the front end, they last longer and have fewer maintenance costs over the life of the roof. <i>Could we design it better?</i>. No. Our participants liked it the way it is. We brought up the fact that the pesticides used to maintain monocultures are not good for bees and other pollinators. Students considered these concerns, but insisted that while they liked bees, they really liked the monoculture and wished that the university had more such lawn covered rooftops for people to access.</p>
+          
+          <p>(We repeated the process at the other sustainable design sites, returning to the Sustainable Design Dialogic Communication Framework and referring to the project data sheets to supplement the group’s knowledge.)</p>
     </div>
-         <p>Add a caption.</p>
-  </div>
+
+    <!-- Image -->
+    <div style="position:relative; overflow:hidden">
+      <img class="text-block up" src="dawn/img1.jpg" style=" border-radius:25px  " alt="Plants next to the side of a University of Pittsburgh's campus building.">
+      <div class="caption" style="margin-top: -4vh;">
+        <p><i>Plants next to the side of a University of Pittsburgh's campus building.</i></p>
+      </div></img>
+    </div>
+<!-- FORMATIVE ASSESSMENT -->
+      <div class="text-block fade-in" id="assessment-data-collection">
+        <h2> Formative Assessment of Inquiry and Data Collection</h2>
+
+          <p>Over the course of the walk, we noticed that students learned to anticipate the kinds of questions we were asking by providing analysis and commentary to those questions with little to no prompting. Over the course of the inquiry and data collection, we noticed a few other trends in our dialogue with participants that we will relate in the discussion. </p>
+          
+          <p><b><i>Participants possessed prior knowledge of local and global environmental issues.</i></b>Students demonstrated a complex understanding of local issues including the need to mitigate waste water and address our city’s wastewater infrastructure problems. They also understood how our water pollution contributed to larger problems downstream and in the ocean.</p>
+          
+          <p><b><i>Participants understood sustainable design as an integrated solution</i></b> involving a variety of design features like recycling and composting bins, bicycle infrastructure, permeable surfaces, rain gardens, trees and a robust tree canopy.</p>
+          
+          <p><b><i>Participants did not balk at the high cost of sustainable design projects.</i></b> The university completed a reasonably large sustainable design project that reduced traffic from four lanes to two in a high pedestrian area, added bike lanes, rain gardens, permeable surfaces, and 6200 plantings. The university spent 23.7 million dollars on the project. Students thought the money well spent and liked the fact that it continued to serve all users. </p>
+          
+          <p><b><i>Participants were troubled when designs were neglected or appeared to fail.</i></b> We visited a series of pollinator gardens located around one of our campus buildings. Some of these sites were well maintained and others were not. During the visit participants learned about the declining bee population in the United States, gathered data on plants that attracted pollinators, and about the efficacy of a bee houses designed to attract pollinators; however, participants were troubled that they did not see any pollinators at these designated sites and wanted more plant density and consistent care. (note: we did see bees and wasps later in our tour.) </p>
+          
+          <p><b><i>Participants were hopeful that more attention to sustainable design would bring improvements to the environment.</i></b> Participants were largely optimistic about the future. However, they wanted to see adults do more.</p>
+      </div>
+
+      <!-- Image -->
+      <img class="text-block up" src="linda/img8.jpg" style="border-radius:25px;" alt="Thrift store on University of Pittsburgh's campus.">
+      <div class="caption" style="margin-top: -4vh;">
+        <p><i>Thrift store on University of Pittsburgh's campus. </i></p>
+      </div>
+
+      <!-- ASSESSMENT OF SCIENCE DOCUMENT WITH TABLE FIGURE -->
+      <div class="text-block fade-in" id="assessment-science-communcation">
+        <h2>ASSESSMENT OF THE SCIENCE COMMUNICATION DOCUMENT</h2>
+
+          <p>Returning to the classroom participants began organizing image assets, adding them their project folder and naming them. Before lunch, participants wrote interview questions and conducted interviews, added the audio files to their project files, and then we took lunch. We dedicated the two hours in the afternoon to working with the code templates. As they finished, we uploaded their projects to our GitHub repository. Finally, at the end of our workshop time, we asked participants to make a short presentation sharing their science communication document.</p>
+   
+                  <table alt="“This table breaks down student interest in the seven sustainable design projects. All six participants featured bicycle infrastructure and pollinator gardens. Five featured rain gardens. Three featured clothing reuse shops. Two featured trees. Ramps and green roofs each received one vote.”">
+              <tr>
+                <th></th>
+                <th>James</th>
+                <th>Linda</th>
+                <th>Robert</th>
+                <th>Dawn</th>
+                <th>William</th>
+                <th>Thomas</th>
+              </tr>
+              <tr>
+                <td>Bike Reuse Shop or Bike Infrastructure</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+              </tr>
+              <tr>
+                <td>Pollinator Gardens</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+              </tr>
+              <tr>
+                <td>Rain gardens</td>
+                <td>X</td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+                <td>X</td>
+                <td>X</td>
+              </tr>
+              <tr>
+                <td>Clothing Reuse Shop</td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+              </tr>
+              <tr>
+                <td>Trees</td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Ramps</td>
+                <td>X</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Green Roof</td>
+                <td></td>
+                <td></td>
+                <td>X</td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
+            <fig>Fig. 1 Student interests in particular sustainability sites.</fig>
+          </div>
+  <!-- assessment continued -->
+  <div class="text-block fade-in">
+          <p>During qualitative analysis, we used apriori codes to look for pattern in student work. These codes relate to our project goals.</p>
+
+          <p><b>G1: Students will use the Sustainable Design Dialogic Communication framework to inquire into and form arguments related to sustainable design. </b></p>
+
+          <p>The science communication document provides participants with four content areas in which to use the Sustainable Design Dialogic Communication Framework. All students effectively used stasis theory in at least one case. Four of the six students employed stasis theory most cases. One student was unable to discuss policy in all but one case. Another participant lacked quality and policy in most cases. We found that the available data from the audio interview correlated with these outcomes. Students who could effectively use stasis
+
+          theory in written form were also able to include aspects of stasis theory in their responses to sustainability related questions. That said, Students also made errors in their claims. One student had misunderstandings around rain gardens, thinking they filtered water for drinking. Another student mislabeled had trouble with titles. Using a text editor with spell check. Four students cited data from project data sheets and one student used data in another instance. Student examples include, “The Arbor Day Foundation report that trees can reduce 2-4 degrees Fahrenheit,” and “It is important because 75-90% of greens come from pollinators and without them we basically wouldnt have most vegetables or flowers or fruits” (sic)</p>
+
+          <p><b>G2: Students will develop a working definition of sustainable design and a methodology for asking questions, gathering data, communicating their findings, and influencing others.</b></p>
+
+          <p>We were interested in individual student’s ability to language the meaning of sustainable design. Obviously, students demonstrate an implicit understanding of sustainable design through the projects they choose to showcase, but we were interested in seeing if they could do so more explicitly in template and in the audio interview. In the template, we wrote the heading: What is sustainable design? What does it do? How does it work? Why is it important? How can we increase interest in sustainable design? We even gave explicit HTML code comments asking students to address the prompt. Only two responded to the code comment prompt while the last result emerged from an interview: Here are the unedited results:</p>
+
+          <p><i> “Sustainable design is work/designs that help the world. It basically makes the world a better place by making helpful designs. It's important to help keep the world stable. We can increase interest by spreading the word and making more designs worldwide.”</i></p>
+
+          <p><i>“Sustainable design are designs that are efficient and has a important purpose. We should share sustainable designs all over the world to help and improve places.”</i></p>
+
+          <p><i>“To help the environment and not waste things.”</i></p>
+
+          <p><b>G3: Students will understand local sustainable design sites as part of a larger networked approach to addressing environmental problems.</b></p>
+
+          <p>Rain gardens, bees, and bicycle infrastructure figured prominently in these responses. Students were able to understand the multiple benefits of such projects. As Linda pointed out, “[rain gardens] use excess rainwater but to also provide pollinating insects more plants.” William adds, “[rain gardens] collect rain water so that the large amount of it doesn't go into the sewer system, flood it, and pollute the rivers. Then that polluted water would go into the rivers and contaminate them and the things that live in them.” James wanted to scale up pollinator gardens on a global scale to maximize global impact. “There are many gardens in the world and it would be easy to turn those into pollinator gardens which are better for the economy all around.” For the students, bike infrastructure provided another turnkey solution.
+
+          As Dawn put it, “Bicycles are a healthy form of transportation that's good for the environment, and for you. Instead of using a car which produces carbon dioxide and heats up our planet, a bike won't harm our planet and is an easy way to get some excersize (sic). If more bike lanes are made and everyone is given easy access to trails, the world could be much healthier.”</p>
+
+          <p><b>G4: Students will see the connections between social justice and environmental justice.
+
+          Accessibility. </b></p>
+
+          <p>Students readily understood that sustainable design to focused on equity. James shared that Ramps were his favorite sustainable design project: “They are so easy to make and are so useful. It makes it easier for handicapped people to move up and people with baby strollers as well.” Several students discussed the clothing reuse shop and bike reuse shop as sustainable design projects that provide equitable solutions for people in need. As Robert points out: “This is beneficial to students who need transport but do not have enough money to afford more expensive bikes.” William was especially enthusiastic about bikes. Here is his unedited argument: “The more people we get riding bike, the less air polution we have in the world. Also bikes are fun. We could make biking even more efficiant by adding more bike lanes througout the streets so that their are less accidents. (sic)” Dawn discussed rain gardens as a sustainable design project with implications for social justice. She argued that rain gardens “[…] stop the flooding that could damage buildings or hurt people,” and reasoned that “[b]uilding more rain gardens would be helpful to stop flooding or harm.” William mentioned the benefits of tree canopy citing data to support his argument around increasing tree density in urban areas: “More people die from heat stroke than from cold exposure each year.”</p>
+
+          <p><b>G5: Students will learn basic coding skills and follow best practices to communicate their findings. </b></p>
+
+          <p>We assessed participants science communication documents by first looking at the content and then the design usability, accessibility, and privacy best practices. We discussed these concerns with students both explicitly and using code comments embedded in the webtext.
+
+          One student chose to complete the document without following directions. This presents accessibility concerns in that he replaced the hero image with a Gif video without a pause button. This student also chose to use a marquee text function in place of modal window. Marquee functions are difficult for many neurodiverse users. All participants were attentive to one another’s privacy when taking photographs. However, none of our participants resized image assets during post production. Reducing image size decreased load time which improves accessibility. In fact, the original project file with all six projects used 322MB of space. Only one student added alt-text, which was another point we addressed explicitly both orally and in HTML code-comments. Before publication, we reduced image size and added alt-text to all student projects.</p>
+          </div>
 
 
-    ***Add Copyright Footer***
+    <!-- Image -->
+    <div style="position:relative; overflow:hidden">
+      <img class="text-block up" src="robert/img7.jpg " style=" border-radius:25px  " alt="Bike reuse center on University of Pittsburgh's campus.">
+      <div class="caption" style="margin-top: -4vh;">
+        <p><i>Bike reuse center on University of Pittsburgh's campus. </i></p>
+      </div>
+    </div>
+<!-- PARENT FEEDBACK -->
+            <div class="text-block fade-in" id="parent-feedback">
+              <h2>Parent Feedback</h2>
 
-  <div class="footer">
-    <p><i>Copyright Your Name, Year.</i></p>
-  </div>
+              <p>We were also interested in understanding parent perspective of both their children’s science communication document as well as the discussions that may have occurred between parents and children. Following Booth et al’s (2020) research on the the bennefits of science conversations between parents and children children’s attitudes towards science. we were interested in the capacity for this case study as a “backpack approach ” to generate conversations between our participants and their children. We had partent responses for all parents. All parents were impressed by their children’s science communication documents and especially by the fact that their children used text editors, HTML code templates, and file management to build their documents. The parents were also impressed by their children’s ability to discuss their sustainable design document and emphasize the importance of sustainable design. All but one parent reported that their child’s participation increased their general interest in sustainability.</p>
+      </div>
 
 
 
-    ***Need something that's not here? Go to https://www.w3schools.com to find all kinds of resources to facilitate your code learning.***
+<!-- DISCUSSION  -->
+      <div class="text-block fade-in" id="discussion">
+          <h1>DISCUSSION</h1>
+
+              <p>Sustainability education should create learning experiences for youth to “examine their biases, beliefs, and values, be motivated to seek and assess that which is reasonable in forming new judgments, and construct new knowledge and understanding that serves them and others well for their future” (Seatter %amp; Ceulemans, 2017). This case study provides an example of how we might advance inclusive models of science communication working with youth at an environmental science and code education day camp focused on exploring sustainable design. Our case study demonstrated that participants benefited from our use of the Sustainable Design Dialogic Communication Framework to promote inquiry and dialogue during the data collection portion of our activities and as a tool to help students create their science communication documents. Like Spring Gillard and Rob VanWynsberghe (2021), we think learner-led sustainable tours “active approaches to teaching and learning [are] more likely to give rise to self-motivated change agents who apply their learning to create change. However, this research focuses on the role of dialogic communication in this learner-led effort, and argues the benefit of using stasis theory to best promote inquiry and dialogue. We hope that other researchers will benefit from our strategies including the Sustainable Design Dialogic Framework, our free and open-source code education tools, and that our example will further similar outreach action in your community.</p>
+
+              <p><b><i>This research project received grant funding from the University of Pittsburgh Office of the Provost’s Year of Data and Society and from the University of Pittsburgh Mascaro Center for Sustainable Innovation.</i></b></p>
+
+              <a href="https://github.com/Pitt-Fuego/Sustainable-Design” target="_blank">Go to Project Repository</a></p>
+      </div>
+      
+
+      <!-- REFERENCES -->
+      <div class="references fade-in" id="references">
+        <h1>REFRENCES</h1>
+
+            <p>Assembly, United Nations General. (1989). <cite >Convention on the Rights of the Child. United Nations, Treaty Series</cite>, <i>1577</i>(3), 1-23. 1989.</p>
+
+            <p>Belotti, Francesca, Donato, Stellamarina, Bussoletti, Arianna, &amp; Comunello, Francesca. (2022). Youth activism for climate on and beyond social media: Insights from FridaysForFuture-Rome. <cite>The International Journal of Press/Politics</cite>, <i>27</i>(3), 718-737. https://doi.org/10.1177/19401612211072776 </p>
+
+            <p>Berchin, Issa I., de Aguiar Dutra, Ana R., &amp; Guerra, Jose B. S. O. D. A. (2021). How do higher education institutions promote sustainable development? A literature review. <cite>Sustainable Development</cite>, <i>29</i>(6), 1204-1222. <a href="
+
+            https://doi.org/10.1002/sd.2219” target="_blank">https://doi.org/10.1002/sd.2219</a></p>
+
+            <p>Bolin, Jessica L., &amp; Hamilton, Lawrence C. (2018). The news you choose: News media preferences amplify views on climate change. <cite>Environmental Politics</cite>, <i>27</i>(3), 455-476. https://doi.org/10.1080/09644016.2018.1423909</p>
+
+            <p>Booth, A. E., Shavlik, M., &amp; Haden, C. A. (2020). Parents’ causal talk: Links to children’s causal stance and emerging scientific literacy. <cite>Developmental Psychology</cite>, <i>56</i>(11), 2055. https://doi.org/10.1037/dev0001108</p>
+
+            <p>Breakwell, Glynis M., &amp; Beardsell, Sue. (1992). Gender, parental and peer influences upon science attitudes and activities. <cite>Public Understanding of Science</cite>, <i>1</i>(2), 183. https://dx.doi.org/10.1088/0963-6625/1/2/003></p>
+
+            <p>Burns, Terry W., O'Connor, D. John, &amp; Stocklmayer, Susan M. (2003). Science communication: a contemporary definition. <cite>Public Understanding of Science</cite>, <i>12</i>(2), 183-202. https://doi.org/10.1177/09636625030122</p>
+
+            <p>Bussey, Marcus, Friman, Eva, Do, Thao., &amp; Barrineau, Susanna. (2023). Co-Creation Labs: Fostering Innovative Ways of Communicating for Sustainability. <cite>International Journal of Humanities and Social Science</cite>, <i>13</i>(2), 49-59.</a> doi:10.30845/ijhss.v13n2p6</p>
+
+            <p>Carpenter, Serena, Takahashi, Bruno, Lertpratchya, Alisa P., & Cunningham, Carie. (2016). Greening the campus: a theoretical extension of the dialogic communication approach. <cite>International Journal of Sustainability in Higher Education</cite>, <i>17</i>(4), 520-539. https://doi.org/10.1108/IJSHE-02-2015-0036</p>
+
+            <p>Chan, Samantha, Bain, Dan, Brannon, Zachary, Bowers, Rachel, Dandoy, Justin, Gallagher, Sam, … Yancy, Abby (2017) Campus Tree Advisory Committee. <cite>Pitt Sustainability.</cite> Retrieved June 1, 2023, from <a href=" https://www.sustainable.pitt.edu/team-member/campus-tree-advisory-committee/" target="_blank">https://www.sustainable.pitt.edu/team-member/campus-tree-advisory-committee/</a></p>
+            <p>Cash, David. W., Clark, William C., Alcock, Frank, Dickson, Nancey M., Eckley, Noelle, Guston, David H., Jäger, Jill, &amp; Mitchell, Ronald. B. (2003). Knowledge systems for sustainable development. <cite>Proceedings of the national academy of sciences</cite>, <i>100</i>(14), 8086-8091. <a href=”https://doi.org/10.1073/pnas.1231332100” target="_blank">https://doi.org/10.1073/pnas.1231332100</a></p>
+
+            <p>Ciasullo, M. V., Manna, R., & Palumbo, R. (2019). Developing a taxonomy of citizen science projects in primary school: Toward sustainable educational quality co-production. <cite>The Total Quality Management Journal</cite>, <i>31</i>(6), 948-967. <a href=" " target="_blank"></a></p>
+
+            <p>Clark, William. C., &amp; Dickson, Nancy. M. (2003). Sustainability science: the emerging research program. <cite>Proceedings of the National Academy of Sciences</cite>, <i>100</i>(14), 8059-8061. <a href="https://doi.org/10.1073/pnas.1231333100" target="_blank">https://doi.org/10.1073/pnas.1231333100</a></p>
+
+            <p>Cortassa, Carina (2016). In science communication, why does the idea of a public deficit always return? The eternal recurrence of the public deficit. <cite>Public Understanding of Science</cite>, <i>25</i>(4), 447-459. <a href="https://doi.org/10.1177/0963662516629745" target="_blank">https://doi.org/10.1177/0963662516629745</a></p>
+
+            <p>Crowley, Sharon, &amp; Hawhee, Debra. (1999). <cite>Ancient rhetorics for contemporary students</cite>. Allyn and Bacon.
+
+            <p>Davis, Janet B. (1996). Stasis theory. In <cite>Encyclopedia of Rhetoric and Composition: Communication From Ancient Times to the Information Age</cite>, 693-696. <a href=" " target="_blank"></a></p>
+
+            <p>Dewey, John. (1933: 2022). <cite>How we think</cite>. D.C. Heath and Company Publishers: DigiCat</p>
+
+            <p>Driver, Rosalind, Newton, Paul, &amp; Osborne, Jonathan (2000). Establishing the norms of scientific argumentation in classrooms. <cite>Science education</cite>, <i>84</i>(3), 287-312. https://doi.org/10.1002/(SICI)1098-237X(200005)84:3<287::AID-SCE1>3.0.CO;2-A </p>
+
+            <p>Eide, Elisabeth., &amp; Kunelius, Risto. (2021). Voices of a generation the communicative power of youth activism. <cite>Climatic Change</cite>, <i>169</i>(1-2), 6. <a href="https://doi.org/10.1007/s10584-021-03211-z " target="_blank"> https://doi.org/10.1007/s10584-021-03211-z </a></p>
+
+            <p>Einsiedel, Edna. (2007). Of publics and science. <cite>Public Understanding of Science</cite>, <i>16</i>(1), 5-6. <a href="https://journals.sagepub.com/doi/pdf/10.1177/0963662506071289
+
+            " target="_blank">https://journals.sagepub.com/doi/pdf/10.1177/0963662506071289
+
+            </a></p>
+
+            <p>Erduran, Sibel, Simon, Shirley, &amp; Osborne, Jonathan. (2004). TAPping into argumentation: Developments in the application of Toulmin's argument pattern for studying science discourse. <cite> Science Education</cite>, <i>88</i>(6), 915-933. https://doi.org/10.1002/sce.20012</p>
+
+            <p>Fahnestock, Jeanne, &amp; Secor, Maria. (1988). The stases in scientific and literary arguments. <cite>Written Communication</cite>, <i>5</i>, 427–443. https://doi.org/10.1177/0741088388005004002</p>
+
+            <p>Fischer, Joern, Gardner, Toby A., Bennett, Elena. M., Balvanera, Patricia, Biggs, Reinette, Carpenter, Stephen, … Tenhunen, John. (2015). Advancing sustainability through mainstreaming a social–ecological systems perspective. <cite>Current Opinion in Environmental Sustainability</cite>, <i>14</i>(), 144-149. https://doi.org/10.1016/j.cosust.2015.06.002</p>
+
+            <p>Frijters, Stan, ten Dam, Geert, &amp; Rijlaarsdam, Gert. (2008). Effects of dialogic learning on value-loaded critical thinking. <i>Learning and Instruction</i>, <i>18</i>(1), 66-82. <a href="https://doi.org/10.1016/j.learninstruc.2006.11.001" target="_blank"> https://doi.org/10.1016/j.learninstruc.2006.11.001</a></p>
+
+            <p>Gillard, Spring, &amp; VanWynsberghe, Rob. (2021). Sustainability Tours: A case for Tours as an Essential Component of Educating for Sustainability. <cite>Canadian Journal for the Study of Adult Education</cite>, <i>33</i>(1). <a href=" https://cjsae.library.dal.ca/cjsae/article/view/5558 " target="_blank"> https://cjsae.library.dal.ca/cjsae/article/view/5558 </a></p>
+
+            <p>Giri, V., &amp; Paily, M. U. (2020). Effect of scientific argumentation on the development of critical thinking. <cite>Science & Education</cite>, <i>29</i>(3), 673-690.<a href=" " target="_blank"></a></p>
+
+            <p>Hargittai, E., Füchslin, T., &amp; Schäfer, M. S. (2018). How do young adults engage with science and research on social media? Some preliminary findings and an agenda for future research. <cite>Social Media+ Society</cite>, <i>4</i>(3), 2056305118797720. <a href=" " target="_blank"></a></p>
+
+            <p>Jerneck, Anne, Olsson, Lennart, Ness, Barry, Anderberg, Stefan, Baier, Matthias, Clark,Eric, …. Perrson, Johannes. (2011). Structuring sustainability science. <cite>Sustainability Science</cite>, <i>6</i>, 69-82. <a href="https://doi.org/10.1007/s11625-010-0117-x" target="_blank">https://doi.org/10.1007/s11625-010-0117-x</a></p>
+            <p>Johnston, James Scott. (2013). John Dewey and science education. In <cite>International handbook of research in history, philosophy and science teaching</cite> (pp. 2409-2432). Dordrecht: Springer Netherlands. https://doi.org/10.1007/978-94-007-7654-8_75</p>
+
+            <p>Kates, Robert W., Clark, William C., Corell, Robert, Hall, Michael, Jaeger, Carl. C., Lowe, Ian, ... Svedin, Uno. (2001). Sustainability science. <cite>Science</cite>, <i>292</i>(5517), 641-642.Karpov, Y. V. (2003). https://www.science.org/doi/10.1126/science.1059386<p>
+
+            <p>Kent, Michael L. & Taylor, Maureen. (2002). Toward a dialogic theory of public relations. Public relations review, 28(1), 21-37. <a href="https://doi.org/10.1016/S0363-8111(02)00108-X" target="_blank">https://doi.org/10.1016/S0363-8111(02)00108-X</a></p>
+
+            <p>Kimmerer, R. (2013). <cite>Braiding sweetgrass: Indigenous wisdom, scientific knowledge and the teachings of plants</cite>. Milkweed Editions.</p>
+
+            <p>Lane, Suzanne T. (2022). Teaching Stasis Theory as a Critical Thinking, Reading, and Writing Tool in Engineering Subjects. <cite>Double Helix</cite>, <i>10</i>(2022). <a href="https://wac.colostate.edu/docs/double-helix/v10/lane.pdf" target="_blank">DOI: 10.37514/DBH-J.2021.10.1.02</a></p>
+
+            <p>Leach, Melissa, Stirling, Andrew Charles, &amp; Scoones, Ian. (2010). <cite>Dynamic sustainabilities: technology, environment, social justice</cite> (p. 232). Taylor & Francis. <a href=https://library.oapen.org/bitstream/handle/20.500.12657/52748/1/9781136541674.pdf target="_blank">https://library.oapen.org/bitstream/handle/20.500.12657/52748/1/9781136541674.pdf</a></p>
+
+            <p>Lindenfeld, Laura A., Hall, Damon M., McGreavy, Bridie, Silka, Linda, &amp; Hart, David (2012). Creating a place for environmental communication research in sustainability science. <cite>Environmental Communication: A Journal of Nature and Culture</cite>, <i>6</i>(1), 23-43. https://doi.org/10.1080/17524032.2011.640702</p>
+
+            <p>Linell, Per. (2009). <cite>Rethinking language, mind, and world dialogically.</cite> Information Age Publishing.</p>
+
+            <p>Marcell, Kristen, Agyeman, Julian, &amp; Rappaport, Ann. (2004). Cooling the campus: Experiences from a pilot study to reduce electricity use at Tufts University, USA, using social marketing methods. <cite>International Journal of Sustainability in Higher Education</cite>, <i>5</i>(2), 169-189. <a href="https://www.emerald.com/insight/content/doi/10.1108/14676370410526251/full/html" target="_blank">https://www.emerald.com/insight/content/doi/10.1108/14676370410526251/full/html</a></p>
+
+            <p>McGreavy, Bridie., Lindenfeld, Laura., Bieluch, Karen Hutchins, Silka, Linda, Leahy, Jessica, &amp; Zoellick, Bill. (2015). Communication and sustainability science teams as complex systems. <cite>Ecology and Society</cite>, <i>20</i>(1). <a href="https://www.jstor.org/stable/26269712" target="_blank">https://www.jstor.org/stable/26269712</a></p>
+
+            <p>McLennan, Jason F. (2004). <cite>The philosophy of sustainable design: The future of architecture. </cite> Ecotone Publishing."</p>
+
+            <p>McMichael, Anthony. J., Butler, Colin. D., &amp; Folke, Carl. (2003). New visions for addressing sustainability. <cite>Science</cite>, <i>302</i>(5652), 1919-1920. https://www.science.org/doi/full/10.1126/science.1090001</p>
+
+            <p>Mercer, Neil, Dawes, Lyn &amp; Staarman, Judith K. (2009). Dialogic teaching in the primary science classroom. <cite>Language and education</cite>, <i>23</i>(4), 353-369. https://doi.org/10.1080/09500780902954273</p>
+
+            <p>Merzagora, Matteo, &amp; Jenkins, Tricia. (2013). Listening and empowering: children and science communication. <cite>Journal of Science Communication</cite>, <i>12</i>(3), C01. <a href="https://doi.org/10.22323/2.12030301" target="_blank">https://doi.org/10.22323/2.12030301</a></p>
+
+            <p>Mortimer, Eduardo, &amp; Scott, Phillip. (2003). <cite>Meaning Making In Secondary Science Classrooms</cite>. McGraw-Hill Education (UK).</p>
+
+            <p>Nouri, A. (2014). Dialogic learning: A social cognitive neuroscience view. <cite>International
+
+            Journal of Cognitive Research in Science, Engineering and Education</cite>, <i>2</i>(2), 87-
+
+            92. <a href=" " target="_blank"></a></p>
+
+            <p>Ollerton, Jeff, Winfree, Rachael, & Tarrant, Sam. (2011). How many flowering plants are
+
+            pollinated by animals? <cite>Oikos</cite>, <i>120</i>(3), 321-326. <a href="https://doi.org/10.1111/j.1600-0706.2010.18644.x " target="_blank>https://doi.org/10.1111/j.1600-0706.2010.18644.x</a></p>
+
+            <p>Potts, Simon. G., Ngo, Hein T., Biesmeijer, Jacobus C., Breeze, Thomas D., Dicks, Lynn V., Garibaldi, Lucas. A., ... & Viana, Blandina F. (2016). <cite>The assessment report of the Intergovernmental Science Policy Platform on Biodiversity and Ecosystem Services on pollinators, pollination and food production.</cite> Retrieved June 1, 2023 from <a href=" https://www.ipbes.net/sites/default/files/downloads/pdf/individual_chapters_pollination_20170305.pdf" target="_blank">https://www.ipbes.net/sites/default/files/downloads/pdf/individual_chapters_pollination_20170305.pdf
+
+            </a></p>
+
+            <p>Quigley, S. (2022). Basic coding. <cite>Kairos. A Journal of Rhetoric, Technology, and
+
+            Pedagogy</cite>, <i>26</i>(2). <a href="https://kairos.technorhetoric.net/26.2/disputatio/quigley/openfuego.html" target="_blank">https://kairos.technorhetoric.net/26.2/disputatio/quigley/openfuego.html</a></p>
+
+            <p>Roche, Joseph, Bell, Laura, Galvão, Cecilia, Golumbic, Yaela. N., Kloetzer, Laura, Knoben, Nieke, ... &amp; Winter, Silvia. (2020). Citizen science, education, and learning: Challenges and opportunities. <cite>Frontiers in Sociology</cite>, <i>5</i>, 613814. <a href="https://doi.org/10.3389/fsoc.2020.613814" target="_blank"https://doi.org/10.3389/fsoc.2020.613814</a></p>
+
+            <p>Sabherwal, Anandita, Ballew, Matthew T., van Der Linden, Sander, Gustafson, Abel, Goldberg, Matthew H., Maibach, Edward W., et al. (2021). The Greta Thunberg effect: Familiarity with Greta Thunberg predicts intentions to engage in climate activism in the United States. <cite>Journal of Applied Social Psychology</cite>, <i>51</i> (4), 321-333. <a href="https://doi.org/10.1111/jasp.12737 " target="_blank"> https://doi.org/10.1111/jasp.12737</a></p>
+
+            <p>Scott, Phillip, &amp; Ametller, Jaume. (2007). Teaching science in a meaningful way: Striking a balance between ‘opening up’ and ‘closing down’ classroom talk. <cite>School Science Review</cite>, <i>88</i> (324), 77-83.</p>
+
+            <p>Seatter, Carol S., & Ceulemans, Kim. (2017). Teaching sustainability in higher education: Pedagogical styles that make a difference. <cite>Canadian Journal of Higher Education</cite>, <i>47</i>(2), 47-70. <a href="https://eric.ed.gov/?id=EJ1154160" target="_blank">https://eric.ed.gov/?id=EJ1154160</a></p>
+
+            <p>Sennett, Richard. (2012). <cite>Together: The rituals, pleasures and politics of cooperation. </cite> Yale University Press.</p>
+
+            <p>Simis, M. J., Madden, H., Cacciatore, M. A., &amp; Yeo, S. K. (2016). The lure of rationality: Why does the deficit model persist in science communication? <cite>Public understanding of science</cite>, <i>25</i> (4), 400-414. <a href=" " target="_blank"></a></p>
+
+            <p>Sturm, Ulrike, Schade, Sven, Ceccaroni, Luigi, Gold, Margaret, Kyba, Christopher C., Bernat, Claramunt,…Soledad, Luna. (2018). <cite>Defining principles for mobile apps and platforms development in citizen science.</cite> <a href="https://doi.org/10.3897/rio.4.e23394" target="_blank">https://doi.org/10.3897/rio.4.e23394</a></p>
+
+            <p>Suldovsky, B., McGreavy, B., &amp; Lindenfeld, L. (2017). Science communication and stakeholder expertise: Insights from sustainability science. <cite>Environmental Communication</cite>, <i>11</i>(5), 587-592. <a href=" " target="_blank"></a></p>
+            <p>Tengö, Maria, Hill, Rosemary, Malmer, Pernilla, Raymond, Christpher. M., Spierenburg, Marja, Danielsen, Finn, … Folke, Carl. (2017). Weaving knowledge systems in IPBES, CBD and beyond—lessons learned for sustainability. <cite>Current Opinion in Environmental Sustainability</cite>, <i>26</i>, 17-25. <a href=" https://doi.org/10.1016/j.cosust.2016.12.005" target="_blank">https://doi.org/10.1016/j.cosust.2016.12.005</a></p>
+
+            <p>Toulmin, Stephen. (1958: 2003). <cite>The uses of argument.</cite> Cambridge University Press.</p>
+
+            <p>Trahan, Ellen R., North, Lesley A., Gripshover, Margaret M., &amp; Huss, Jeanine M. (2017). Campus sustainability tours: exploring an uncharted tool. <cite>International Journal of Sustainability in Higher Education</cite>, 18(6), 908-922. https://doi.org/10.1108/IJSHE-12-2015-0200</p>
+
+            <p>Trench, Brian. (2008). Towards an analytical framework of science communication models. In <cite>Communicating Science in Social Contexts: New Models, New Practices</cite> 119-135. https://doi.org/10.1007/978-1-4020-8598-7_7</p>
+
+            <p>Trench, Brian., & Bucchi, Massimiano. (2021). Rethinking science communication as the social conversation around science. <cite>Journal of Science Communication</cite>, <i>20</i> (3), 1-11. <a href="https://doi.org/10.22323/2.20030401” target="_blank"> https://doi.org/10.22323/2.20030401</a></p>
+
+            <p>Vee, Annette. (2017). <cite>Coding literacy: How computer programming is changing writing.</cite> MIT Press.</p>
+
+            <p>Vygotsky, Lev S. (1978). <cite>Mind in society: Development of higher psychological processes</cite> (Michael Cole, Trans.). Harvard University Press.</p>
+
+            <p>Wallis, Hannah, &amp; Loy, Laura S. (2021). What drives pro-environmental activism of young people? A survey study on the Fridays For Future movement. <cite>Journal of Environmental Psychology</cite>, <i>74</i>, 101581. https://doi.org/10.1016/j.jenvp.2021.101581<p>
+
+            <p>Wegerif, Rupert, Postlethwaite, Keith, Skinner, Nigel, &amp; Hetherington, Lindsey. (2013). In Nasser Mansour &amp; Rupert. Wegerif (Eds.), <cite>Dialogic science education for diversity</cite> (pp. 3-22). Springer Netherlands. https://doi.org/10.1007/978-94-007-4563-6_1</p>
+
+            <p>Welty, Elizabeth, &amp; Lundy, Laura. (2013), “A children’s rights-based approach to involving children in decision making”, <cite>Journal of Science Communication</cite> <i>12</i>(03): C02. <a href="https://doi.org/10.22323/2.12030302" target="_blank">https://doi.org/10.22323/2.12030302</a></p>
+
+            <p>Wing, Jeannette M. (2006). Computational thinking. <cite>Communications of the ACM</cite>, <i>49</i>(3), 33-35. <a href="https://doi.org/10.1145/1118178.1118215
+
+            target="_blank">https://doi.org/10.1145/1118178.1118215
+
+            </a></p>
+
+            <h1>Images</h1>
+
+            <p>Elena Medvedeva. (Nd.). <cite>Watercolor seamless border with green grass isolated on white background. Greenery flower for wedding invitation, digital projects, Easter, Mother day card decoration, textiles, stationery design</cite>. [Artwork]. Adobe Stock.</p>
+
+            <p>Firefly AI. (2024). <cite>Watercolor Honey Bees</cite>. [Artwork]. Adobe Stock</p>
+
+            <p>NA. (n.d.). <cite>Bigelow Panorama</cite>. [Photograph]. Office of University Communications & Marketing, University of Pittsburgh. Retrieved June 1, 2023, from https://www.communications.pitt.edu/photography</p>
+
+            <p> Rising Sun. (n.d.). <cite>Girl riding a bicycle to school isolated in watercolor</cite>. [Artwork]. Adobe Stock</p>
+
+            <p>University of Pittsburgh Facilities Management</p> (2019) <cite>Bigelow Boulevard Project Drawings</cite> [Project Drawings].</p>
+
+            <p>University of Pittsburgh Facilities Management</p> (2019) <cite>Bigelow Boulevard Project Drawings</cite> [Project Renderings].</p>
+      </div>
+      
+<!-- Footer -->
+       <div class="logo">
+           <img src="bee2.png" alt="Open Fuego Flame" style="max-width:25%;max-height:25%;">
+           <p><b>generated by <a href="https://open-fuego.github.io/Open-Fuego-Coding-Tools/">Open Fuego</a></b></p>
+           <p><em>Why make a spark when you can light a fire?</em></p>
+       </div>
+
+       <div class="up" style="width: 100%;  padding: 0; margin: 0;">
+           <img src="plants.png" style="padding:0; margin: -150px 0px; width: 100%;">
+       </div>
+   </body>
+</html>
