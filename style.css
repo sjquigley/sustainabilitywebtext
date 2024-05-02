@@ -364,7 +364,7 @@ Logo width controlled inline */
   background-color: inherit;
   margin: 4.5em auto;
   font-family: inherit;
-  font-size: 0.8em;
+  font-size: 1em;
   color: gray;
   text-align: left;
 }
@@ -376,7 +376,7 @@ Logo width controlled inline */
     background-color: inherit;
     margin: 4.5em auto;
     font-family: inherit;
-    font-size: 0.6em;
+    font-size: 0.8em;
     color: gray;
     text-align: left;
   }
